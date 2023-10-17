@@ -21,7 +21,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Release Thoughts + Finding The Meta.md",
+                "file": "1 - Game Release Thoughts + Finding The Meta.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccaca15dba598c1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Designing a X Drive.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,19 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deciding on The Chasis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6dab358ce6f9ab1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Designing a X Drive.md",
+                "file": "3 - Designing a X Drive.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 282.5
   },
   "right": {
     "id": "53065eef37112493",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Designing a X Drive.md",
+                "file": "3 - Designing a X Drive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Designing a X Drive.md",
+                "file": "3 - Designing a X Drive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Designing a X Drive.md"
+                "file": "3 - Designing a X Drive.md"
               }
             }
           }
@@ -179,14 +179,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6dab358ce6f9ab1",
+  "active": "7dff778f3c9af315",
   "lastOpenFiles": [
-    "Pasted image 20231016195801.png",
-    "Designing a X Drive.md",
-    "Deciding on The Chasis.md",
+    "output.pdf",
+    "3 - Designing a X Drive.md",
+    "2 - Deciding on The Chasis.md",
+    "1 - Game Release Thoughts + Finding The Meta.md",
+    "images/Pasted image 20231016195801.png",
+    "images/X-Drive-Side-Assembely_2023-Oct-16_11-46-25PM-000_CustomizedView13816525200_jpg.jpeg",
+    "images/X-Drive-Side-Assembely_2023-Oct-16_09-45-49PM-000_CustomizedView6898571831_jpg.jpeg",
+    "images/X-Drive-Bar_(Large)_2023-Oct-17_01-27-08PM-000_CustomizedView385919524_jpg.jpeg",
+    "images/X-Drive-Assembely_2023-Oct-17_02-59-42PM-000_CustomizedView13390833218_jpg.jpeg",
+    "images/X-Drive-Assembely_2023-Oct-17_01-29-51PM-000_CustomizedView15178685553_jpg.jpeg",
+    "images/Iteration_1_2023-Oct-17_01-26-37PM-000_CustomizedView14535115016_jpg.jpeg",
+    "images",
+    "mages",
+    "untitled folder",
+    "combined.md",
+    "pagebreak.pdf",
+    "combined.pdf",
+    "3 - Designing a X Drive.pdf",
+    "2 - Deciding on The Chasis.pdf",
+    "1 - Game Release Thoughts + Finding The Meta.pdf",
+    "CreatePDF.sh",
+    "pagebreak.md",
+    "X-Drive-Assembely_2023-Oct-17_02-59-42PM-000_CustomizedView13390833218_jpg.jpeg",
+    "X-Drive-Assembely_2023-Oct-17_01-29-51PM-000_CustomizedView15178685553_jpg.jpeg",
+    "X-Drive-Bar_(Large)_2023-Oct-17_01-27-08PM-000_CustomizedView385919524_jpg.jpeg",
     "Untitled.canvas",
     "Flywheel vs Catapult.md",
-    "Game Release Thoughts + Finding The Meta.md",
     "Intake Style.md"
   ]
 }

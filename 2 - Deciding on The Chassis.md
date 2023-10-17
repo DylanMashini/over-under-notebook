@@ -1,4 +1,5 @@
-# 2 - Deciding on The Chasis
+# 2 - Deciding on The Chassis
+### Dylan Mashini
 ## Form Factor
 
 The type of chassis for this year was a major decision for our team. We've wanted to do a X drive for about a year now, but we didn't know if it was ideal for this year's game. If we didn't chose a X drive, we would've used a traditional tank drive (like we did last year).
@@ -20,11 +21,7 @@ The type of chassis for this year was a major decision for our team. We've wante
 - Harder to get over the bar
 
 
-![Simpler X-Drive Design](https://www.vexforum.com/uploads/default/original/3X/e/e/eee9dd4b807c7ff53a30790daf3a3bf3980cf73f.jpeg)
-
-
-
-![Traditional X Drive](https://www.vexforum.com/uploads/default/optimized/3X/1/b/1bcba4d3b78208cb6e76b779563c13f8eca5f87a_2_283x250.png)
+![Source: @Codec on vexforum.com](images/simpleXDrive.jpeg)
 
 	Source: @Codec on vexforum.com
 
@@ -43,7 +40,7 @@ The type of chassis for this year was a major decision for our team. We've wante
 - Larger Footprint
 - Limited Aesthetic Appeal (Doesn't look Cool)
 
-**INSERT IMAGE OF LAST YEAR'S DRIVETRAIN
+**INSERT IMAGE OF LAST YEAR'S DRIVETRAIN**
 
 ### Decision
 We ultimately decided to build a X drive because of the competitive advantage that we could gain from being able to be more nimble on the field. I predict that this year's meta will be a lot less focused on brute force and more on agility because the tasks require you to move quickly and efficiently within a small space compared to last year. Right now it seems like each match will have an "Over" bot and an "Under" bot that stay on their respective side and either toss over tri-balls or push them under the goal. This means that you don't need to cover very much ground throughout 

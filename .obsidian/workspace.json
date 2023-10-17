@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Deciding on The Chasis.md",
+                "file": "3 - Designing a X Drive.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Deciding on The Chasis.md",
+                "file": "3 - Designing a X Drive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Deciding on The Chasis.md",
+                "file": "3 - Designing a X Drive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Deciding on The Chasis.md"
+                "file": "3 - Designing a X Drive.md"
               }
             }
           }
@@ -181,11 +181,11 @@
   },
   "active": "7dff778f3c9af315",
   "lastOpenFiles": [
+    "2 - Deciding on The Chasis.md",
+    "output.pdf",
     "1 - Game Release Thoughts + Finding The Meta.md",
     "3 - Designing a X Drive.md",
     "temp.temp",
-    "output.pdf",
-    "2 - Deciding on The Chasis.md",
     "images/Pasted image 20231016195801.png",
     "images/X-Drive-Side-Assembely_2023-Oct-16_11-46-25PM-000_CustomizedView13816525200_jpg.jpeg",
     "images/X-Drive-Side-Assembely_2023-Oct-16_09-45-49PM-000_CustomizedView6898571831_jpg.jpeg",

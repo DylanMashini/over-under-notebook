@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Designing a X Drive.md",
+                "file": "2 - Deciding on The Chasis.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - Designing a X Drive.md",
+                "file": "2 - Deciding on The Chasis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 - Designing a X Drive.md",
+                "file": "2 - Deciding on The Chasis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Designing a X Drive.md"
+                "file": "2 - Deciding on The Chasis.md"
               }
             }
           }
@@ -181,11 +181,11 @@
   },
   "active": "7dff778f3c9af315",
   "lastOpenFiles": [
+    "1 - Game Release Thoughts + Finding The Meta.md",
+    "3 - Designing a X Drive.md",
     "temp.temp",
     "output.pdf",
-    "3 - Designing a X Drive.md",
     "2 - Deciding on The Chasis.md",
-    "1 - Game Release Thoughts + Finding The Meta.md",
     "images/Pasted image 20231016195801.png",
     "images/X-Drive-Side-Assembely_2023-Oct-16_11-46-25PM-000_CustomizedView13816525200_jpg.jpeg",
     "images/X-Drive-Side-Assembely_2023-Oct-16_09-45-49PM-000_CustomizedView6898571831_jpg.jpeg",
@@ -202,7 +202,6 @@
     "3 - Designing a X Drive.pdf",
     "2 - Deciding on The Chasis.pdf",
     "1 - Game Release Thoughts + Finding The Meta.pdf",
-    "CreatePDF.sh",
     "pagebreak.md",
     "X-Drive-Assembely_2023-Oct-17_02-59-42PM-000_CustomizedView13390833218_jpg.jpeg",
     "X-Drive-Assembely_2023-Oct-17_01-29-51PM-000_CustomizedView15178685553_jpg.jpeg",

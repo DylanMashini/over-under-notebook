@@ -23,6 +23,7 @@ The type of chassis for this year was a major decision for our team. We've wante
 ![Simpler X-Drive Design](https://www.vexforum.com/uploads/default/original/3X/e/e/eee9dd4b807c7ff53a30790daf3a3bf3980cf73f.jpeg)
 
 
+
 ![Traditional X Drive](https://www.vexforum.com/uploads/default/optimized/3X/1/b/1bcba4d3b78208cb6e76b779563c13f8eca5f87a_2_283x250.png)
 
 	Source: @Codec on vexforum.com

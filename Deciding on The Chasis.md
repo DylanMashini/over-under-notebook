@@ -29,7 +29,7 @@ Source: @Codec on vexforum.com
 - Simplicity of Code
 - Already have experience deciding 
 - Easier to get over the bar
-##### Cons:
+##### Cons: 
 - Limited Maneuverability makes efficient operation on the field more difficult
 - Larger Footprint
 - Limited Aesthetic Appeal (Doesn't look Cool)

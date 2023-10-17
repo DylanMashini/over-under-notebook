@@ -1,0 +1,28 @@
+name: Simple Usage
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create Stuff
+        run: |
+          touch ./temp.temp
+          # Iterate through all markdown files in the current directory
+          for file in *.md; do
+            # Ensure that each file starts on a new page by appending a page break
+            echo -e "\n\pagebreak\n" >> ./temp.temp
+            # Concatenate the current file content to the temporary file
+            cat "$file" >> ./temp.temp
+          done
+
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: temp.temp -o output.pdf -f markdown-implicit_figures
+      - name: Clean Up
+        run: rm -rf ./temp.md
+      - name: Commit
+        run: git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com" && git config --global user.name "github-actions[bot]" && git add . && git commit -m "Auto Updated Blog Posts" && git push
+      

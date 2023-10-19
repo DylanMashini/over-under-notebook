@@ -1,8 +1,11 @@
 # 2 - Deciding on The Chassis
 ### Dylan Mashini
+
+This post is in summary of a strategy meeting held to decide on the form factor for our robot this year. 
+
 ## Form Factor
 
-The type of chassis for this year was a major decision for our team. We've wanted to do a X drive for about a year now, but we didn't know if it was ideal for this year's game. If we didn't chose a X drive, we would've used a traditional tank drive (like we did last year).
+The type of chassis for this year was a major decision for our team. We've wanted to do a X drive for more than a year now, but we didn't know if it was ideal for this year's game. If we didn't chose a X drive, we would've used a traditional tank drive (like we did last year).
 
 ### X Drive
 
@@ -42,5 +45,43 @@ The type of chassis for this year was a major decision for our team. We've wante
 
 **INSERT IMAGE OF LAST YEAR'S DRIVETRAIN**
 
-### Decision
-We ultimately decided to build a X drive because of the competitive advantage that we could gain from being able to be more nimble on the field. I predict that this year's meta will be a lot less focused on brute force and more on agility because the tasks require you to move quickly and efficiently within a small space compared to last year. Right now it seems like each match will have an "Over" bot and an "Under" bot that stay on their respective side and either toss over tri-balls or push them under the goal. This means that you don't need to cover very much ground throughout 
+
+### Making Sense of Our Options
+
+At the end of the meeting today, we ultimately decided on a X drive. Let's break down why
+
+Everything boils down to a few tradeoffs:
+
+- Nimble vs Strong
+- Simple and Less Capable vs Complex and More Capable
+- Aesthetic Appeal
+#### Nimble vs Strong:
+Last year, we had the same discussion, but we ultimately decided to use a Tank Drive. So what has Changed? We envision matches this year being far less defensive for a few reasons:
+
+- The nature of the game means that each robot has a distinct task (Over vs Under), can will likely only partake in defense after their task is done. We imagine that this eliminates defense for the first half of the round. Compare this to Spin Up, where if a bot didn't have the capability to shoot they could just attempt to defend against their opponent and defend. 
+- Bots have to be light if they want to attempt to get points during Endgame. This means that you won't see heavy bots that are able to push you around. This makes the risk of being easily pushed around less likely. 
+- Last year, getting the rollers required defense at the end of the match, so bots were built with that in mind. There isn't any similar motivator for bots to be purpose built for defense this year. 
+
+It is also more beneficial to be Nimble this year compared to last year because a smaller operating space creates additional benefit from being maneuverable. 
+
+#### Simple and Less Capable vs. Complex and More Capable
+
+Last year was our first year creating Competition Robots, so we had very little build experience. This year we feel confident that we can engineer a more complex drivetrain so we are willing to take on the challenge of an X Drive. The only concern about complexity that we had was reliability. We know that during a competition everything that can go wrong with our robot likely will, so we tried to identify possible troubles that we could have with our robot during a match. 
+
+- Field Centric Control Fails
+	- A major benefit of X Drive is the ability to have Field Centric Control, but this requires you to track the angle of the robot throughout the match relative to its starting position. We plan to do this through Odometry/Inerta Sensors. This adds more complexity and room for error in the code. If error builds up over time, it could negatively impact the drive team's ability to carry out tasks efficiently. Fortunately, we can mitigate this by getting measurements from two sources. Measuring from both Odometry and a Inerta sensor allows us to use a Kalman Filter and get a more reliable value. This makes the risk minimal, and not as large of a concern. 
+- Mounting Fails
+	- When X Drives are considered, one of the major issues is the mounting of subsystems. The strange chassis shape inevitably reduces the possible mounting points for subsystems.  We discussed this issue, and decided that we could mitigate this by remaining diligent about what is load bearing and using good practices in building. As long as we aren't lazy with the strategies we use to mount subsystems, failure seems unlikely. 
+- Motor Failure
+	- In a tank drive, motors are usually linked by a powertrain (Gears or Chains), to where if one motor fails, the robot is still fully maneuverable. This type of failure would cripple an X drive, because all the motors are direct drive. Fortunately, we've never had a motor fail during a match, and looking on the VexForum, it seems like most instances of this are either from mistreating the motors (overheating, running without cartridge, etc), or manufacturing defects with recalls. Our motors are more than a year old, so any defects would've already been found so we are confident that this won't be an issue. Worst case scenario we lose a round and replace the motor. 
+
+Overall, failure due to choosing an X drive seems unlikely. X Drives increase the risk of poor practices in programming and building, but as long as we remain diligent about making conscious decisions and redundant systems, we should be in the clear. 
+
+#### Aesthetic Appeal
+
+This one doesn't really matter, but this is honestly what initially got our team interested in using X Drive. I look forward to seeing our robot be able to strafe, and X drives definitely have the "cool factor" that initially got me interested in robotics. 
+
+
+
+### Reckoning with the decision 
+

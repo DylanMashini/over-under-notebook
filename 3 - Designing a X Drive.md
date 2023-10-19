@@ -67,7 +67,7 @@ $$
 d=1.5
 $$
 
-Considering the constraints of the Vex Design System, the best option is going to be $2in$ standoffs, and we can accommodate for the error by aligning the holes using the give in the screws we use for the gussets. 
+This is perfect, because we can use $1.5in$ standoffs to separate the inner and outer track. These parameters are good to calculate so we can know that our holes are going to line up for the axle, which are going to prevent friction. 
 ## Cadded Design
 After figuring out the optimal dimensions, we created different sub assemblies. First, I created a inner and outer track
 
@@ -85,10 +85,9 @@ And then connected them into a side assembly.
 ![](images/XDriveSideAssemblyIsometric.jpeg)
 
 ### Assembly
-After creating the side assemblies, I brought them into a final assembly and mirrored them. Then I added Motors, Wheels and structural Supports. Because being lightweight is very important this year, the only steel parts are the central braces. The rest is made up of aluminum. The reason that we used steel for the central parts is to reduce flex between the two sides which will prevent drive issues in teh future.  
+After creating the side assemblies, I brought them into a final assembly and mirrored them. Then I added Motors, Wheels and structural Supports. Because being lightweight is very important this year, the only steel parts are the central braces. The rest is made up of aluminum. The reason that we used steel for the central parts is to reduce flex between the two sides which will prevent drive issues in the future.  
 
 ![Assembled Drivetrain](images/XDriveAssembly.jpeg)
-
 
 Here is the assembly with the Tri-Ball next to it. This really shocked the team because until this point we didn't fully come to terms with how large this year's game element was. 
 

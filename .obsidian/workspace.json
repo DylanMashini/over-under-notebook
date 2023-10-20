@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0e03dcc6c6ab0723",
+        "id": "e379a69fa5364137",
         "type": "tabs",
         "children": [
           {
-            "id": "c43145dfb0cef5c9",
+            "id": "470266f8f710a197",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Deciding on The Chassis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b01d1f2f468b937",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Designing a Intake.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "810ef2d24b00ac3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - Building the Chassis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "841dcd581743ecbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Designing a Intake.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58e96c2fdf491e8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Designing a X Drive.md",
+                "file": "0 - Meta (Starting The Journal).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5 - Building the Chassis.md",
+                "file": "0 - Meta (Starting The Journal).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5 - Building the Chassis.md",
+                "file": "0 - Meta (Starting The Journal).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5 - Building the Chassis.md"
+                "file": "0 - Meta (Starting The Journal).md"
               }
             }
           }
@@ -195,15 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "810ef2d24b00ac3a",
+  "active": "470266f8f710a197",
   "lastOpenFiles": [
-    "4 - Adding A Catapult.md",
     "5 - Building the Chassis.md",
     "6 - Designing a Intake.md",
-    "0 - Meta (Starting The Journal).md",
-    "2 - Deciding on The Chassis.md",
-    "1 - Game Release Thoughts + Finding The Meta.md",
     "3 - Designing a X Drive.md",
+    "images/RightTriangle.jpeg",
+    "images/Untitled.jpeg",
+    "4 - Adding A Catapult.md",
+    "2 - Deciding on The Chassis.md",
+    "Untitled.md",
+    "1 - Game Release Thoughts + Finding The Meta.md",
+    "0 - Meta (Starting The Journal).md",
+    "This.md",
+    "images/RightTriangle.jpeg.sb-e5eed325-i31TlZ",
+    "images/XDriveExampleTwo.jpeg",
+    "images/XDrive.jpeg",
+    "images/XDriveExampleOne.jpeg",
     "images/SlipGear.jpeg",
     "images/CatapultArmMounting.jpeg",
     "images/CatapultArmMounting.jpeg.sb-e5eed325-UWCMRz",
@@ -211,12 +170,6 @@
     "images/Catapult.jpeg",
     "images/CatapultAssembley_2023-Oct-19_11-28-16AM-000_CustomizedView9273652484_jpg.jpeg",
     "images/CatapultFrameMounting.jpeg.sb-e5eed325-MeSE4y",
-    "images/RobotAssembley_2023-Oct-18_05-16-25PM-000_CustomizedView55766350609_jpg.jpeg",
-    "images/CatapultArm.jpeg",
-    "images/CatapultAssembley_2023-Oct-18_09-00-09PM-000_CustomizedView41055413169_jpg.jpeg",
-    "images/XDriveAssemblyBall.jpeg",
-    "images/CatapultFrame.jpeg",
-    "This.md",
     "images.md",
     "Iteration_1_2023-Oct-17_01-26-37PM-000_CustomizedView14535115016_jpg.jpeg.md",
     "X-Drive-Side-Assembely_2023-Oct-16_09-45-49PM-000_CustomizedView6898571831_jpg.jpeg.md",
@@ -230,7 +183,6 @@
     "combined.md",
     "pagebreak.pdf",
     "combined.pdf",
-    "3 - Designing a X Drive.pdf",
     "pagebreak.md",
     "Untitled.canvas",
     "Flywheel vs Catapult.md",

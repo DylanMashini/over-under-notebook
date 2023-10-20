@@ -1,1 +1,0 @@
-This vexforum post was useful to figuring out how to create our slip gears. 

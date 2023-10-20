@@ -8,6 +8,7 @@ This year, the team has decided that we want our robot to be both an Over and an
 ## How Does a Catapult work in Vex?
 
 Our team has never made a catapult, so we had to figure out how they function in Vex. Usually Vex catapults are powered by rubber bands that are wound back with a motor. The way that a motor winds the catapult arm back is using a gear train. Then at the bottom of the catapults path, the gear doesn't have teeth and the gears loose contact. 
+
 ### Slip Gears
 
 This idea of a gear that intentionally loses contact is called a slip gear. To make one, you take a regular Vex gear, and cut away teeth. [This vexforum post was useful to figuring out how to create our slip gears. ](https://www.vexforum.com/t/slip-gear/35759/3)

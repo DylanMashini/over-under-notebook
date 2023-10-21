@@ -13,7 +13,7 @@ done
 
 # Now convert the concatenated markdown to a desired format, e.g., PDF
 # Output the result to output.pdf
-pandoc "$temp_file" -o output.pdf -f markdown-implicit_figures
+pandoc "$temp_file" -o output.pdf -f markdown-implicit_figures --toc --toc-depth=1
 
 # Remove the temporary file
 rm "$temp_file"

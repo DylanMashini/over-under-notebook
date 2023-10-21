@@ -24,7 +24,7 @@ First, consider a Tank Drive that is moving directly forwards compared to a X Dr
 
 ![](images/XDriveExampleOne.jpeg)
 
-In this scenario, both will have the same max speed, but the X drive will have less force. This is because the RPM is the same for the motors and there are motors facing directly the direction the bot needs to go in both robots. If you flip the X drive $45^\circ$ the result will be the same. Let's look at a more common scenario
+In this scenario, both will have the same max speed, but the X drive will have less force. This is because the RPM is the same for the motors and there are motors facing directly the direction the bot needs to go in both robots. Let's look at a more common scenario where both bots are going forwards:
 
 ![](images/XDriveExampleTwo.jpeg)
 
@@ -42,4 +42,48 @@ $$
 $$
 C=\sqrt{2}
 $$
-This proves that when traveling forwards, an X drive will have $\sqrt{2}$ times the speed. This comes at at a cost though, because Force and Speed are linearly correlated. That means that a $\sqrt{2}$  increase in speed leads to a $\frac{1}{\sqrt{2}}$ times decrease in Force. To balance this tradeoff, we decided to use a green cartridge instead of a blue cartridge that we used last year. 
+This proves that when traveling forwards, an X drive will have $\sqrt{2}$ times the speed. This comes at at a cost though, because Force and Speed are inverses of each other. That means that a $\sqrt{2}$  increase in speed leads to a $\frac{1}{\sqrt{2}}$ times decrease in Force. To balance this tradeoff, we decided to use a green cartridge instead of a blue cartridge that we used last year. Let's calculate some stats using a Green Cartridge
+
+##### Max Speed:
+To calculate Max speed of an X drive, we can calculate the Max speed of the same robot with a tank drive configuration and multiply by $\sqrt{2}$. A green cartridge is 200rpm. These calculations are easier because we are using a direct drive without any gear ratio. 
+
+- Let $v_{max}$ be the maximum speed
+- Let $c$ be the circumference of the wheel
+
+We know that in a tank drive, that:
+$$v_{max} = RPM \times c$$
+
+And in a X drive:
+$$
+v_{max}=RPM \times c \times \sqrt{2}
+$$
+
+With that in mind, we just have to calculate the $c$ value. We plan to use 3.25 inch omni-wheels. 3.25" refers to the diameter of the wheels, meaning that we can calculate the circumference. 
+$$
+r=\frac{d}{2}
+$$
+$$
+c=\pi \times r^2
+$$
+$$
+c = \pi \times (\frac{3.25}{2})^2
+$$$$
+c \approx 2.64
+$$
+Now we can plug that in to our formula from before:
+$$
+v_{max} \approx 200 \times 2.64 \times \sqrt{2}
+$$
+And we get:
+$$
+v_{max} \approx 746.70
+$$
+
+Now we have to consider units. Although $c$ is in inches, it really represents $\frac{inches}{revolution}$ in our equation, because the circumference of a wheel is the amount of travel per revolution. So when we multiply $\frac{revolutons}{minute}$ by $\frac{inches}{revolution}$, revolutions cancel and we end up with $\frac{inches}{minute}$. This is a weird unit to use for this, so we can convert it to $\frac{inches}{second}$. This also seems like a strange unit to use, but it is the easiest to verify experimentally that I can think of, it works out to a whole number, and isn't too large of a value. 
+
+The final value is:
+$$
+v_{max} \approx 12.445 \; \frac{inches}{minute}
+$$
+
+I'm planning to verify this after it is built, and see if we actually reach that max speed. 

@@ -20,7 +20,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: temp.temp -o Notebook.pdf -f markdown-implicit_figures
+          args: temp.temp -o Notebook.pdf -f markdown-implicit_figures --toc --toc-depth=1
       - name: Clean Up
         run: rm -rf ./temp.temp
       - name: Commit

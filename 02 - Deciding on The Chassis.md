@@ -45,9 +45,6 @@ The type of chassis for this year was a major decision for our team. We've wante
 - Larger Footprint
 - Limited Aesthetic Appeal (Doesn't look Cool)
 
-**INSERT IMAGE OF LAST YEAR'S DRIVETRAIN**
-
-
 ### Making Sense of Our Options
 
 At the end of the meeting today, we ultimately decided on a X drive. Let's break down why

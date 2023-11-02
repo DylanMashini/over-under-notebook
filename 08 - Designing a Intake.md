@@ -1,5 +1,8 @@
 # Designing a Intake
 ### Dylan Mashini
+### July 1st
+
+This is a writeup after a Team Strategy Meeting, detailing the decisions we made, and why we made them. 
 
 ## The End Of CAD
 
@@ -33,14 +36,35 @@ There are a few categories we used to judge our intake:
 	- We envision an intake with a secondary function of placing Tri-Balls into the low goals. 
 - Intake into existing catapult design
 	- The Tri-Balls should consistently land in the existing hardware for our catapult. 
-
+	
 We considered horizontal vs vertical intake across these criteria and determined:
+
 ### Consistently Intake
+
 Both have the ability to consistently intake, although I would say that a horizontal intake will likely be much easier to build where it can consistently intake. This is because with a vertical intake, we likely would need a bottom and top set of wheels. This means that it will have to be elevated off the ground, and I don't see how that could work well for us. 
-**INSERT SHITTY DRAWING**
 
 ### Footprint
 The footprint is going to be similar either way. I don't see any significant difference between horizontal or vertical intake. 
 
 ### Easy to Build 
-I don't see how 
+There isn't a significant difference in the difficulty for building the two. Both use flex wheels, and have 2 axles that must rotate simultaneously. 
+
+### Place in Low Goals
+I don't think that a vertical intake would have the capability to run in reverse and place Tri-Balls into the low goals. Horizontal intakes will be much more likely to be capable to do this. 
+
+### Intake into existing catapult design
+Both could with proper engineering and design, but it would be much easier to design a horizontal intake to do this, because of the height of the catapult. 
+
+## Decision matrix
+**Scores are from 1-10**
+
+| Criteria                             | Weight | Horizontal Intake Score | Vertical Intake Score |
+|--------------------------------------|--------|-------------------------|-----------------------|
+| Consistently Intake Tri-Balls        | 5      | 8                       | 6                     |
+| Fit into size requirements (Footprint)| 3     | 7                       | 7                     |
+| Easy to Build                        | 4      | 7                       | 7                     |
+| Place Tri-Balls into low goal        | 4      | 9                       | 3                     |
+| Integrate with existing catapult     | 5      | 9                       | 6                     |
+| **Weighted Total**                   |        | **170**                 | **121**               |
+
+So it looks like we're making a horizontal intake. Now that we know that, we know generally what we want. There should be two sets of wheels, tensioned together with banding. These will pull the Tri-Ball onto a piece of polycarbonate. When designing it, we considered making it able to also act as a climber for our endgame. This proved too difficult to design, but it might appear in a future iteration. With this design in mind, we are going to begin building the intake. 

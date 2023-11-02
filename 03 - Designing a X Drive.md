@@ -1,4 +1,6 @@
-# Designing a X Drive
+# Designing an X Drive
+### Dylan Mashini
+### May 24th, 2023
 
 Right now, we have no experience with holonomic drives or CAD, so we decided it would be a good idea to learn both at once. The first decision that we had to make is what CAD software to use. We have access to all Autodesk products through their education license, so we have lots of choices. Based on vex library compatibility, we have the option to use Inventor or Fusion 360. My OS of choice is MacOS, and Inventor doesn't have Mac support. Because I'll probably be the main CAD designer, that makes the decision easy. 
 
@@ -90,9 +92,11 @@ After creating the side assemblies, I brought them into a final assembly and mir
 
 ![Assembled Drivetrain](images/XDriveAssembly.jpeg)
 
+![](images/XDriveAssemblyBall.jpeg)
+
 Here is the assembly with the Tri-Ball next to it. This really shocked the team because until this point we didn't fully come to terms with how large this year's game element was. 
 
-![](images/XDriveAssemblyBall.jpeg)
+
 
 
 

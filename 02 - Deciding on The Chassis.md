@@ -1,5 +1,6 @@
 # Deciding on The Chassis
 ### Dylan Mashini
+### May 3rd, 2023
 
 This entry is in summary of a strategy meeting held to decide on the form factor for our robot this year. 
 

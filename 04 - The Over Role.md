@@ -1,9 +1,11 @@
 # The Over Role
 ### Ari Low
+### June 3rd, 2023
 
 For this year's game, we know that we need to be able to act as an Over. What this means, is that we need a way to launch Tri-Balls over the center goal. Based on previous games, we think that Catapult and Flywheel will be the most viable options. . 
 
 There are a few categories that we want to compare them in:
+
 - Effective at launching the Tri-Ball
 	- Whatever launching mechanism that we make must be able to launch a Tri-Ball across the field into our offensive zone. This must be consistent, which is going to be a challenge with the shape of the Tri-Balls. 
 - Speed Launching the Tri-Ball
@@ -17,9 +19,10 @@ Let's compare the two options in each category
 
 ### Effective at launching the Tri-Ball
 
-Right now, based on discussions on the VexForum, and some prototyping done by the team with a 3D printed Tri-Ball (we couldn't wait for the game elements to arrive), it seems like the biggest concern with a flywheel launcher is going to be getting the Tri-Ball to launch consistently. We know that this is going to be a struggle with the shape of a Tri-Ball. Fortunately, catapults will fare much better in this category. 
+Right now, based on discussions on the VexForum, and some prototyping done by our team with a 3D printed Tri-Ball (we couldn't wait for the game elements to arrive), it seems like the biggest concern with a flywheel launcher is going to be getting the Tri-Ball to launch consistently. We know that this is going to be a struggle with the shape of a Tri-Ball. Fortunately, catapults will fare much better in this category. 
 
-**INSERT PICTURE OF YELLOW TRI-BALL**
+![](images/printedTriBall.jpg)
+	**Our 3D printed Tri-Ball we used to prototype**
 
 ### Speed Launching the Tri-Ball
 Launching tri-balls at a high rate is going to be essential this year, especially as we get later into the season. Teams that were able to launch 2-3 disks at once last year performed really well. This is significantly easier with a flywheel, because you can just push multiple into the flywheel rapidly, assuming the motor has time to recover the RPM. This is more difficult with the wind up of a Catapult. 

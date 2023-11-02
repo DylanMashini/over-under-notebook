@@ -1,5 +1,6 @@
 # Meta (Starting The Journal)
 ### Dylan Mashini
+### April 29th, 2023
 
 Right now, it is T-4 hours until the Vex Worlds Final round. This means that we have 4 hours until the game releases. I'm taking today to set up some infrastructure for the upcoming season, and my hopes are high for a good game. This upcoming season, we are aiming high. Our goal is to qualify for Vex Worlds. This is a huge goal considering that we didn't even qualify for states in 2023. All we know about the game is the name, which is "Over Under". 
 

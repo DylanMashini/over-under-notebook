@@ -1,5 +1,6 @@
 # Building the Chassis
 ### Ari Low
+### June 16th, 2023
 
 The chassis design looks good, and it's time to start building the chassis. Right now, there are a few things we know we need that aren't included in the CAD. 
 
@@ -11,9 +12,7 @@ Right now I have a general idea of where these things should go, but I'll have t
 
 ## Building
 
-I started by creating the inner and outer tracks of the X drive. These were pretty straightforward, but midway through we ran out of $45^\circ$ gussets. To continue being productive, I attached all 4 C Chanels together before adding the angled ends. This ended up making things more difficult when I had to put in the motors, axles, and wheels. I didn't get a picture, but here's a render of what the bot looked like after attaching the 4 C Chanels. 
-
-**INSERT RENDER**
+I started by creating the inner and outer tracks of the X drive. These were pretty straightforward, but midway through we ran out of $45^\circ$ gussets. To continue being productive, I attached all 4 C Chanels together before adding the angled ends. This ended up making things more difficult when I had to put in the motors, axles, and wheels. 
 
 ### Adding Motors
 One thing that the team hasn't thought about is what gear cartridges we are going to use. This was our first time making a X Drive, so we didn't have a good perspective on what would work well. Let's do some quick calculations to figure that out. 
@@ -92,7 +91,7 @@ I'm planning to verify this after it is built, and see if we actually reach that
 ### Constructing Wheels + Motors
 To add wheels, axles, and motors, we must figure out the correct amount of spacers to use. Previously for us, this was a lot of trial and error, but now that we have a CAD model, we can use that to figure it out. 
 
-** INSERT CAD RENER**
+![](images/Wheel.jpeg)
 
 This made it significantly easier, and the number of spacers shown fits perfectly. Now, I just have to repeat the installation process three more times. 
 

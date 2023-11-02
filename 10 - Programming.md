@@ -1,4 +1,6 @@
 # Programming The Robot
+### Dylan Mashini
+### September 3rd
 
 For programming this year, I want the robot to be capable during the driver control period using Field Oriented Control, and capable during auton. With that in mind, I have to decide how I'm going to actually program it. 
 
@@ -19,6 +21,7 @@ Rust is my favorite programming language, and I've wanted to use it for robotics
 
 
 Unfortunately, I don't think it makes sense to use Rust for this, but as the Vex Rust ecosystem improves, I hope to use it in the future. 
+
 ### Option 2: C++
 
 Now that we know that C++ is the desired language, we have to pick a runtime. There are two main options:
@@ -54,4 +57,30 @@ The Official Vex Runtime, released by Vex is the default choice. To use it, you 
 #### Cons:
 - No official vex support
 
+
+## Decision Matrix
+
+| Criteria/Options                 | Weight | Rust | Official Vex C++ | ProsV5 C++ |
+|----------------------------------|--------|------|------------------|------------|
+| Memory Safety                    | 4      | 10   | 8                | 8          |
+| Ease of Programming              | 3      | 8    | 6                | 8          |
+| Programming Experience           | 5      | 10   | 10               | 10         |
+| Ecosystem Maturity               | 4      | 4    | 10               | 8          |
+| External Library Support (OkAPI) | 5      | 2    | 2                | 10         |
+| IDE Compatibility                | 4      | 10   | 2                | 10         |
+| Competition Legality             | 5      | 8    | 10               | 10         |
+| Official Support                 | 3      | 2    | 10               | 4          |
+| Hardware Robustness              | 4      | 4    | 6                | 6          |
+| **Total Score (out of 360)**     |        | 192  | 216              | 266        |
+
+Now that we know we are using ProsV5, we can start programing. This isn't going to be a lot of work, because we are able to use OkAPI's X Drive support, so it's just a few method calls to setup. Here is the code for driving. 
+
+```cpp
+chasis.fieldOrientedXArcade(
+	main_controller.get_analog(pros::E_CONTROLLER_ANALOG_LEFT_Y),
+	main_controller.get_analog(pros::E_CONTROLLER_ANALOG_LEFT_X),
+	main_controller.get_analog(pros::E_CONTROLLER_ANALOG_RIGHT_X),
+	imu.get_heading() * 1_deg
+);
+```
 

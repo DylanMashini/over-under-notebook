@@ -1,5 +1,6 @@
 # Adding a Catapult
 ### Dylan Mashini
+### June 12th, 2023
 
 ## How Does a Catapult work in Vex?
 
@@ -48,4 +49,4 @@ Figuring out how to make a slip gear in CAD was a challenge. This is the first t
 
 ![Slip Gear in CAD](images/slipGear.jpeg)
 
-This was ultimately never used in CAD, because it was too difficult and time consuming to assemble a geartrain, and it provided minimal benefit vs doing it in the real world. 
+This was ultimately never used in CAD, because it was too difficult and time consuming to assemble a geartrain, and it provided minimal benefit vs doing it in the real world. After adding the structure for the catapult, and the catapult arm, we decided that we had enough to begin building the the real world. 

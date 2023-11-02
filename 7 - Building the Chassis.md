@@ -97,5 +97,3 @@ To add wheels, axles, and motors, we must figure out the correct amount of space
 This made it significantly easier, and the number of spacers shown fits perfectly. Now, I just have to repeat the installation process three more times. 
 
 
-
-

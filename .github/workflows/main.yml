@@ -20,9 +20,9 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: temp.temp -o output.pdf -f markdown-implicit_figures
+          args: temp.temp -o Notebook.pdf -f markdown-implicit_figures --toc --toc-depth=1
       - name: Clean Up
         run: rm -rf ./temp.temp
       - name: Commit
-        run: git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com" && git config --global user.name "github-actions[bot]" && git add . && git commit -m "Auto Updated Blog Posts" && git push
+        run: git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com" && git config --global user.name "github-actions[bot]" && git add . && git commit -m "Auto Generated PDF" && git push
       

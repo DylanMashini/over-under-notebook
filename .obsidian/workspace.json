@@ -160,6 +160,7 @@
   },
   "active": "7fd45f5866b62199",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "1 - Meta (Starting The Journal).md",
     "2 - Game Release Thoughts + Finding The Meta.md",
     "9 - Designing a Intake.md",
@@ -174,6 +175,21 @@
     "6 - Adding A Catapult.md",
     "5 - The Over Role.md",
     "3 - Deciding on The Chassis.md",
+=======
+    "Notebook.pdf",
+    "output.pdf",
+    "6 - Designing a Intake.md",
+    "5 - Building the Chassis.md",
+    "output.pdf.sb-70f42c96-aKb9aL",
+    "0 - Meta (Starting The Journal).md",
+    "images/XDriveExampleTwo.jpeg",
+    "images/XDriveExampleOne.jpeg",
+    "images/RightTriangle.jpeg",
+    "Untitled.md",
+    "4 - Adding A Catapult.md",
+    "2 - Deciding on The Chassis.md",
+    "1 - Game Release Thoughts + Finding The Meta.md",
+>>>>>>> b60054ed39700ad8fe3365c9c0db98dd6f03052c
     "3 - Designing a X Drive.md",
     "4 - Designing a X Drive.md",
     "4 - The Over Role.md",
@@ -202,9 +218,31 @@
     "images/RightTriangle.jpeg.sb-e5eed325-i31TlZ",
     "images/CatapultArmMounting.jpeg.sb-e5eed325-UWCMRz",
     "images/CatapultFrameMounting.jpeg.sb-e5eed325-MeSE4y",
+<<<<<<< HEAD
     "temp.temp",
     "images",
     "mages",
     "Untitled.canvas"
+=======
+    "images/RobotAssembley_2023-Oct-18_05-16-25PM-000_CustomizedView55766350609_jpg.jpeg",
+    "images/CatapultArm.jpeg",
+    "This.md",
+    "images.md",
+    "Iteration_1_2023-Oct-17_01-26-37PM-000_CustomizedView14535115016_jpg.jpeg.md",
+    "X-Drive-Side-Assembely_2023-Oct-16_09-45-49PM-000_CustomizedView6898571831_jpg.jpeg.md",
+    "X-Drive-Bar_(Large)_2023-Oct-17_01-27-08PM-000_CustomizedView385919524_jpg.jpeg.md",
+    "().md",
+    "temp.temp",
+    "images",
+    "mages",
+    "untitled folder",
+    "combined.md",
+    "pagebreak.pdf",
+    "combined.pdf",
+    "pagebreak.md",
+    "Untitled.canvas",
+    "Flywheel vs Catapult.md",
+    "Intake Style.md"
+>>>>>>> b60054ed39700ad8fe3365c9c0db98dd6f03052c
   ]
 }

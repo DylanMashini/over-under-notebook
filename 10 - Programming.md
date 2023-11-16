@@ -84,3 +84,118 @@ chasis.fieldOrientedXArcade(
 );
 ```
 
+## Programming the Catapult
+
+To Program the catapult, we had to consider what it needed to do. The primary functionality of the catapult is for match loads. Basically, we represented the catapult as a finite state machine (FSM). If you haven't heard of state machines, the idea is that you can represent a system as being in a finite number of states, and the FSM transitions between these states. 
+
+Here are all the different possible states we determined are needed:
+- Idle
+	- The catapult is idle when it isn't enabled by the controller. The Idle state sets the motor to 0 voltage, and leaves the catapult up. 
+- Winding
+	- The winding state is the first state after the catapult turns on. It winds the catapult back to its fully down position. 
+- Locked
+	- The locked state is when the match load team member puts the Tri-Ball in. This involves maintaining the lowered position for about one second. 
+- Firing
+	- The firing state is when the slip gear goes past it's teeth to release the catapult. This has to be quick and explosive, so we use max speed. This releases the catapult and sends the Tri-Ball flying. 
+
+Here's a diagram of how we transition between states
+
+![](images/stateMachine.jpeg)
+
+Here's what each state actually does inside of the code, and when it transitions. I'll try to prevent it from getting too technical, but I will be including lots of code in here to show how it actually works behind the scenes. 
+
+#### Idle State
+
+The idle state doesn't do anything if the catapult isn't turned on by the controller. If the catapult is turned on, this is what the IDLE state does. 
+```cpp
+if (catapultState == IDLE) {
+	pros::lcd::set_text(3, "IDLE"); // Diognostic Data for debugging
+	catapultState = WINDING; // Moves to the WINDING state
+	stuckCount = 0; // Resets stuckCount
+}
+```
+
+In the catapult code, stuckCount is used to figure out if there is an error happening. For example, if something is preventing the catapult from winding, and it keeps winding for a long time, stuckCount increases until it hits a threshold. At that point, it resets the catapult by turning the motor off for a few seconds, then tries again. We reset stuckCount so it doesn't increment and hit it's limit throughout multiple cycles. 
+
+#### Winding State
+The way that motors work in Vex, is that they maintain an absolute position throughout the program running. This is measured in encoder ticks. There are 1800 encoder ticks in one rotation. This absolute position starts at 0 when you initialize the motor, and increases as the motor rotates. When you want to move the motor to a specific position, you give it an absolute position. This means that if you want to reset the motor back to where it started rotating less than one full rotation in the positive direction, you'd need to set it to go to the next multiple of 1800. In this code, we have a variable called ``absoluteNextZero`` that represents the next absolute position where the robot is at its initial position. For this code, assume that the robot's initial position was all the way down where we want the catapult to lock. 
+
+Here is the code used for the ``WINDING`` state of the catapult. 
+
+```cpp
+if (catapultState == WINDING) {
+		// Increments stuckCount to make sure it isn't stuck on winding for too long
+        stuckCount++;
+        // Threshold is 400. This is equal to 4 seconds,
+        // because this code is a while loop with a 10ms delay. 
+        if (stuckCount > 400) {
+	      // If it has been attempting to wind for 4 seconds, 
+	      // set it to idle and wait 2.5 seconds. 
+          catapultState = IDLE;
+          catapult->move_voltage(0);
+          pros::delay(2500);
+        }
+        // After winding, set absoluteNextZero to the 
+        if ((int)catapult->get_position() % 1800 != 0) {
+	      // Update absoluteNextZero for next iteration
+          absoluteNextZero = (int)catapult->get_position()  +
+                             (1800.0 - (int)catapult->get_position() % 1800);
+        } else {
+          absoluteNextZero = (int)catapult->get_position();
+        }
+        // Debug Info
+        pros::lcd::set_text(3, "WINDING");
+        // Move the catapult to the next zero (down position) 
+        // subtract 5 because for some reason the move_absolute
+        // function tends to overshoot, firing the catapult 
+	    // too early.
+        catapult->move_absolute(absoluteNextZero - 5, 200);
+        // If we are within 15 ticks of our goal,
+	    // transition to the LOCKED state. 
+        if (catapult->get_position() > absoluteNextZero - 15) {
+          catapultState = LOCKED;
+        }
+      }
+```
+
+This is the most complex stage of the catapult, and notice the amount of seemingly arbitrary constants. These came out of hours of testing to figure out how we can get a consistent launch cycle. A way to make this work better is going to be using a housemade PID. The ``move_absolute`` method uses the built in PID built into the vex firmware. This has some issues, especially in our scenario, where the amount of work done by the motor differs massively depending where the slip gear is. I also think it would be a good exercise to build our own PID. 
+
+#### Locked
+The locked state of the catapult is where the match load enters the catapult. 
+
+```cpp
+if (catapultState == LOCKED) {
+	pros::lcd::set_text(3, "LOCKED"); // Debug Info
+	stuckCount = 0; // Reset stuckCount
+	pros::delay(1000); // Wait one second
+	catapultState = FIRING; // Fire the catapult
+}
+```
+
+The locked code is quite simple. All it has to do is stay where it is for one second. We don't interact with the motor because the move_absolute function from the previous state still applies, and we just wait for one second before transitioning into FIRING. 
+
+#### Firing
+The firing state just has to move the motor past the slip gear's teeth. 
+
+```cpp
+if (catapultState == FIRING) {
+		// We're using stuckCount just in case anything goes wrong
+        stuckCount++; 
+        pros::lcd::set_text(3, "FIRING"); // Debug Info
+        // Move to the zero position + 200 ticks
+        catapult->move_absolute(absoluteNextZero + 200, 200);
+        // If we're within 10 ticks of our goal, switch to winding
+        if (catapult->get_position() > absoluteNextZero + 190) {
+          catapultState = WINDING;
+        }
+        // If we've been stuck for over 400 iterations,
+        // reset the catapult
+        if (stuckCount >= 400) {
+          catapultState = IDLE;
+          catapult->move_voltage(0);
+          pros::delay(2500);
+        }
+      }
+```
+
+That's basically all of the catapult code. It's quite simple when you abstract it with the idea of a Finite State Machine. Before I started using the FSM pattern, I had really complex convoluted code that barely worked based on weird conditions of the motor. Using a FSM simplifies this significantly. This code has one drawback, which is the requirement to start in the same place every run. I have this set to be right before the first tooth of the slip gear. 

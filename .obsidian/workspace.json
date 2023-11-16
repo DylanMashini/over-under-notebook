@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Deciding on The Chassis.md",
+                "file": "10 - Programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0ae35b881304ccd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Preparing for Our First Comp of the Year.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69ca5a1dfae5e4a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12 - Reflecting on Our First Competition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ce6724e8098558e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Designing a X Drive.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.50247192382812
+    "width": 311.5024719238281
   },
   "right": {
     "id": "53065eef37112493",
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Deciding on The Chassis.md",
+                "file": "03 - Designing a X Drive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Deciding on The Chassis.md",
+                "file": "03 - Designing a X Drive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Deciding on The Chassis.md"
+                "file": "03 - Designing a X Drive.md"
               }
             }
           }
@@ -146,23 +183,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15267e5d93cf668c",
+  "active": "4ce6724e8098558e",
   "lastOpenFiles": [
-    "Notebook.pdf",
+    "images/XDriveAssemblyBall.jpeg",
+    "03 - Designing a X Drive.md",
+    "04 - The Over Role.md",
+    "05 - Adding A Catapult.md",
+    "06 - Building the Chassis.md",
+    "07 - Building The Catapult.md",
     "08 - Designing a Intake.md",
+    "10 - Programming.md",
+    "12 - Reflecting on Our First Competition.md",
+    "13 - Starting the Rebuild.md",
+    "09 - Building the Intake.md",
+    "images/IntakeSideAssembley.jpg",
+    "11 - Preparing for Our First Comp of the Year.md",
+    "images/RobotV1-1.jpg",
+    "output.pdf.sb-face2305-s910sk",
+    "01 - Meta (Starting The Journal).md",
+    "images/StateMachine.jpeg",
+    "02 - Deciding on The Chassis.md",
+    "Notebook.pdf",
     "CoverPage.pdf",
     "Copy of VRC Digital Notebook - Template v2.1 (1).pdf",
-    "06 - Building the Chassis.md",
-    "03 - Designing a X Drive.md",
     "images/Wheel.jpeg",
     "images/WheelAssembely_2023-Nov-02_06-22-39PM-000_CustomizedView34446555276_jpg.jpeg",
-    "04 - The Over Role.md",
-    "10 - Programming.md",
-    "09 - Building the Intake.md",
-    "07 - Building The Catapult.md",
-    "05 - Adding A Catapult.md",
-    "02 - Deciding on The Chassis.md",
-    "01 - Meta (Starting The Journal).md",
     "output.pdf.sb-e5eed325-Pj3D6V",
     "Descoring.md",
     "11 - Pushing.md",
@@ -177,22 +222,15 @@
     "13 - Wrapping Things Up (For Now).md",
     "11 - Programming the Robot.md",
     "images/CatapultArmAndBucket.jpeg",
-    "1 - Meta (Starting The Journal).md",
-    "5 - The Over Role.md",
-    "2 - Game Release Thoughts + Finding The Meta.md",
     "images/PrintedTriBall.jpg.sb-e5eed325-vCkL7e",
     "images/PrintedTriBall.jpg",
     "output.pdf",
     "images/SpinUpIntake.png",
     "images/XDriveMatrix.jpeg",
     "Untitled.jpeg",
-    "images/CatapultFrameSideAngle.jpeg",
-    "images/SingleSlipGear.jpeg",
     "output.pdf.sb-e5eed325-hJPWbH",
     "watch.sh",
-    "images/New Renders/CataTower.PNG",
     "images/New Renders",
-    "images/RightTriangle.jpeg.sb-e5eed325-i31TlZ",
     "Untitled.canvas"
   ]
 }

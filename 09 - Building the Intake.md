@@ -13,3 +13,4 @@ One option is for us to 3D print VersaHubs until we are able to order them. This
 
 After establishing how we are going to mount it, and how we are going to use flex wheels with the resources that we have, we can start building the final assembly. This is made up of a 5.5W motor, two axles with a flex wheel each, and sprockets and gears to connect both axles. We will have two of those assemblies, both with their own motor, and they will be tensioned together under the robot. 
 
+![](images/intakeSideAssembley.jpg)

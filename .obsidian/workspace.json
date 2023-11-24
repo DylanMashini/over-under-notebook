@@ -37,50 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12 - Reflecting on Our First Competition.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ce6724e8098558e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "13 - Starting the Rebuild.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce6bd01592d0b6c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "14 - Designing the Puncher.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "123acc0cfa62a989",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "15 - Designing The Wings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa831732b5c328db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "16 - Building The Wings.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -146,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15 - Designing The Wings.md",
+                "file": "16 - Building The Wings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "15 - Designing The Wings.md",
+                "file": "16 - Building The Wings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15 - Designing The Wings.md"
+                "file": "16 - Building The Wings.md"
               }
             }
           }
@@ -207,37 +183,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "123acc0cfa62a989",
+  "active": "aa831732b5c328db",
   "lastOpenFiles": [
-    "14 - Designing the Puncher.md",
     "15 - Designing The Wings.md",
-    "images/CatapultGears.jpeg",
-    "images/GearsMeshed.jpeg",
-    "images/PuncherPlate.jpeg",
+    "16 - Building The Wings.md",
+    "images/PneumaticPivot.jpg",
+    "images/image49.jpg",
+    "14 - Designing the Puncher.md",
     "13 - Starting the Rebuild.md",
-    "10 - Programming.md",
-    "09 - Building the Intake.md",
-    "images/Flags.jpg",
-    "08 - Designing a Intake.md",
-    "03 - Designing a X Drive.md",
-    "02 - Deciding on The Chassis.md",
-    "01 - Meta (Starting The Journal).md",
     "12 - Reflecting on Our First Competition.md",
-    "11 - Preparing for Our First Comp of the Year.md",
+    "output.pdf",
+    "images/PuncherPlate.jpeg",
+    "images/GearsMeshed.jpeg",
+    "images/Flags.jpg",
+    "images/CatapultGears.jpeg",
+    "03 - Designing a X Drive.md",
     "images/XDriveAssemblyBall.jpeg",
     "04 - The Over Role.md",
     "05 - Adding A Catapult.md",
     "06 - Building the Chassis.md",
     "07 - Building The Catapult.md",
+    "08 - Designing a Intake.md",
+    "10 - Programming.md",
+    "09 - Building the Intake.md",
     "images/IntakeSideAssembley.jpg",
+    "11 - Preparing for Our First Comp of the Year.md",
     "images/RobotV1-1.jpg",
     "output.pdf.sb-face2305-s910sk",
+    "01 - Meta (Starting The Journal).md",
     "images/StateMachine.jpeg",
+    "02 - Deciding on The Chassis.md",
     "Notebook.pdf",
     "CoverPage.pdf",
     "Copy of VRC Digital Notebook - Template v2.1 (1).pdf",
-    "images/Wheel.jpeg",
-    "images/WheelAssembely_2023-Nov-02_06-22-39PM-000_CustomizedView34446555276_jpg.jpeg",
     "output.pdf.sb-e5eed325-Pj3D6V",
     "Descoring.md",
     "11 - Pushing.md",
@@ -249,9 +227,7 @@
     "8 - Building The Catapult.md",
     "7 - Building the Chassis.md",
     "6 - Adding A Catapult.md",
-    "13 - Wrapping Things Up (For Now).md",
     "images/PrintedTriBall.jpg.sb-e5eed325-vCkL7e",
-    "output.pdf",
     "output.pdf.sb-e5eed325-hJPWbH",
     "watch.sh",
     "images/New Renders",

@@ -10,6 +10,13 @@ jobs:
       - name: Create Stuff
         run: |
           touch ./temp.temp
+          echo -e "---" >> ./temp.temp
+          echo -e "header-includes: |" >> ./temp.temp
+          echo -e "    \usepackage{pdfpages}" >> ./temp.temp
+          echo -e "toc: true\n" >> ./temp.temp
+          echo -e "include-before: \includepdf{/Users/dylanmashini/Development/over-under-notebook/CoverPage.pdf}" >> ./temp.temp
+          echo -e "---\n" >> ./temp.temp
+          
           # Iterate through all markdown files in the current directory
           for file in *.md; do
             # Ensure that each file starts on a new page by appending a page break

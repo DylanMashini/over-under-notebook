@@ -49,19 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17 - Building The Wings.md",
+                "file": "15 - Designing The Wings.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4b144a51c06d10e0",
+            "id": "0cb1099fa06e93c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Designing a X Drive.md",
+                "file": "18 - Creating a New Team.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "18 - Creating a New Team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "18 - Creating a New Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AP Lang Questions.md"
+                "file": "18 - Creating a New Team.md"
               }
             }
           }
@@ -193,28 +195,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84975b96ae7610dc",
+  "active": "0cb1099fa06e93c3",
   "lastOpenFiles": [
+    "CoverPage.pdf",
+    "Copy of VRC Digital Notebook - Template v2.1.pdf",
+    "output.pdf",
+    "modified.markdown",
+    "18 - Creating a New Team.md",
+    "19 - Conquering Endgame.md",
+    "17 - Building The Wings.md",
+    "16 - Building The Puncher.md",
+    "15 - Designing The Wings.md",
+    "14 - Designing the Puncher.md",
+    "13 - Starting the Rebuild.md",
+    "12 - Reflecting on Our First Competition.md",
+    "01 - Meta (Starting The Journal).md",
+    "10 - Programming.md",
     "03 - Designing a X Drive.md",
     "AP Lang Questions.md",
     "out.pdf",
     "out.log",
     "out.tex",
     "02 - Deciding on The Chassis.md",
-    "01 - Meta (Starting The Journal).md",
-    "15 - Designing The Wings.md",
-    "14 - Designing the Puncher.md",
-    "16 - Building The Puncher.md",
-    "10 - Programming.md",
-    "17 - Building The Wings.md",
     "images/InnerWingPolycarb.jpg",
     "images/CardboardWing.jpg",
     "CardboardWing.heic",
     "images/PneumaticPivot.jpg",
     "images/image49.jpg",
-    "13 - Starting the Rebuild.md",
-    "12 - Reflecting on Our First Competition.md",
-    "output.pdf",
     "images/PuncherPlate.jpeg",
     "images/GearsMeshed.jpeg",
     "images/Flags.jpg",
@@ -230,17 +237,12 @@
     "11 - Preparing for Our First Comp of the Year.md",
     "output.pdf.sb-face2305-s910sk",
     "Notebook.pdf",
-    "CoverPage.pdf",
     "Copy of VRC Digital Notebook - Template v2.1 (1).pdf",
-    "output.pdf.sb-e5eed325-Pj3D6V",
     "Descoring.md",
     "11 - Pushing.md",
     "12 - Wrapping Things Up (For Now).md",
     "12 - Pushing.md",
     "11 - Programming.md",
-    "10 - Building the Intake.md",
-    "9 - Designing a Intake.md",
-    "8 - Building The Catapult.md",
     "Untitled.canvas"
   ]
 }

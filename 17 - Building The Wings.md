@@ -1,5 +1,6 @@
 
 # Building The Wings
+## Ari Low
 
 To build the wings, I just have to copy what we have in the CAD model and add polycarbonate. This polycarb is going to be what actually pushes the Tri-Balls. 
 

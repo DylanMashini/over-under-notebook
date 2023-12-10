@@ -10,12 +10,9 @@ echo -e "---" >> "$temp_file"
 echo -e "header-includes: |" >> "$temp_file"
 echo -e "    \usepackage{pdfpages}" >> "$temp_file"
 echo -e "toc: true\n" >> "$temp_file"
-echo -e "include-before: \includepdf{/Users/dylanmashini/Development/over-under-notebook/CoverPage.pdf}" >> "$temp_file"
+echo -e "include-before: \includepdf{./CoverPage.pdf}" >> "$temp_file"
 echo -e "---\n" >> "$temp_file"
 
-
-#  >> "$temp_file"
-cat "$temp_file"
 
 # Iterate through all markdown files in the current directory
 for file in *.md; do

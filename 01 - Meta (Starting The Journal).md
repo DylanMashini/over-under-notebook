@@ -21,17 +21,14 @@ This probably seems far more philosophical then necessary, but if we want to imp
 
 ### Technology
 
-Deciding on how to do the notebook was the first problem of the year we had to conquer. I plan on compiling all the journal entries and everyone's writing into a PDF journal to be printed out and bound at a print store. There are hundreds of different tools out there to use, but I want to pick something that I won't regret in the future. As someone who would label themself as more of a programmer then an engineer, I immediately thought of plaintext representations that I could store in Git. If you aren't familier with Git, it is a Version Control software used for collaboration in programming. It is ideal for this for a few reasons.
+Deciding on how to do the notebook was the first problem of the year we had to conquer. I plan on compiling all the journal entries and everyone's writing into a PDF journal to be printed out and bound at a print store. There are hundreds of different tools out there to use, but I want to pick something that I won't regret in the future. As someone who would label themself as more of a programmer then an engineer, I immediately thought of plaintext representations that I could store in Git. If you aren't familiar with Git, it is a Version Control software used for collaboration in programming. It is ideal for this for a few reasons.
 
 - Using plain text makes the data portable. I can easily migrate to any other solution and don't have to worry about subscriptions/data loss. If I use google slides, my data is stored on their cloud. I don't have any control over it, and frankly that isn't something that I would like to do. 
 - Using the open source tool Pandoc, I can easily generate a PDF document from our journal, and it is heavily customizable. 
-- Timestamps are built in. Git will always record when a change happened, and who did it. 
-- Markdown/Pandoc supports LaTeX math expressions. This is what I use for math currently, and it makes it easy to put mathematical equations. For example, the quadratic formula:
-
-$$
-x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}
-$$
-
+- Timestamps are built in. Git will always record when a change happened, and who did it. This makes it easy to verify that the dates on the entries are correct, and to keep track of everything. 
+- Markdown/Pandoc supports LaTeX math expressions. This is what I use for math currently, and it makes it easy to put mathematical equations.
 - That's far better then anything I could do in google slides, which will allow for better notation of our problem solving process. 
 
-Another benefit is that I can write code to create a table of contents using the data of when a post was made, who made it, its page number, and the title. Doing this programmatically prevents any mismatch between the table of contents and the actual journal. 
+Another benefit is that I can write code to create a table of contents using the data of when a post was made, who made it, its page number, and the title. Doing this programmatically prevents any mismatch between the table of contents and the actual journal. I also like how I can use github actions to automatically generate the PDF whenever I commit a change. This makes it easy to have a always up to date PDF that anyone on the team can look at as they make changes. 
+
+A few drawbacks of this notebook stack, is that it is very clearly a cobbled together solution. Although the output looks great, I probably spent 30 minutes writing code for it to work, and to automate it, and I envision that I will run into bugs in the future where I have to manually debug and figure out what's going on. You wouldn't run into things like this using google slides. 

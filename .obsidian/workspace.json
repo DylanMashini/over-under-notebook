@@ -13,62 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Programming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0ae35b881304ccd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11 - Preparing for Our First Comp of the Year.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69ca5a1dfae5e4a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "19 - Conquering Endgame (Part 1).md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "aa831732b5c328db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "21 - Flipping the Puncher.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c0759f5d368d3b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "18 - Creating and Growing a New Team.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,31 +146,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69ca5a1dfae5e4a9",
+  "active": "15267e5d93cf668c",
   "lastOpenFiles": [
+    "18 - Creating and Growing a New Team.md",
+    "19 - Conquering Endgame (Part 1).md",
     "images/VexHangingMech.png",
     "images/DR4BCompressed.png",
-    "Pasted image 20240107005316.png",
-    "DR4BCompressed.png",
-    "19 - Conquering Endgame (Part 1).md",
-    "15 - Designing The Wings.md",
-    "21 - Flipping the Puncher.md",
-    "18 - Creating and Growing a New Team.md",
-    "22 - Scouting.md",
-    "20 - Puncher Practice.md",
     "images/DR4B.png",
-    "Pasted image 20240107004912.png",
+    "19 - Conquering Endgame.md",
+    "22 - Scouting.md",
+    "21 - Flipping the Puncher.md",
+    "20 - Puncher Practice.md",
+    "00 - Frontmatter.md",
+    "13 - Starting the Rebuild.md",
+    "10 - Programming.md",
+    "11 - Preparing for Our First Comp of the Year.md",
+    "15 - Designing The Wings.md",
+    "01 - Meta (Starting The Journal).md",
+    "18 - Creating a New Team.md",
     "17 - Building The Wings.md",
     "16 - Building The Puncher.md",
-    "14 - Designing the Puncher.md",
-    "13 - Starting the Rebuild.md",
-    "12 - Reflecting on Our First Competition.md",
     "CoverPage.pdf",
     "Copy of VRC Digital Notebook - Template v2.1.pdf",
     "output.pdf",
     "modified.markdown",
-    "01 - Meta (Starting The Journal).md",
-    "10 - Programming.md",
+    "14 - Designing the Puncher.md",
+    "12 - Reflecting on Our First Competition.md",
     "03 - Designing a X Drive.md",
     "AP Lang Questions.md",
     "out.pdf",
@@ -232,17 +184,15 @@
     "images/PneumaticPivot.jpg",
     "images/image49.jpg",
     "images/PuncherPlate.jpeg",
+    "images/GearsMeshed.jpeg",
+    "images/Flags.jpg",
     "04 - The Over Role.md",
     "05 - Adding A Catapult.md",
     "06 - Building the Chassis.md",
     "07 - Building The Catapult.md",
     "08 - Designing a Intake.md",
-    "09 - Building the Intake.md",
-    "11 - Preparing for Our First Comp of the Year.md",
     "output.pdf.sb-face2305-s910sk",
     "Notebook.pdf",
-    "Descoring.md",
-    "11 - Pushing.md",
     "Untitled.canvas"
   ]
 }

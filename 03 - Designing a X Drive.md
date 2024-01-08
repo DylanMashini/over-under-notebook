@@ -90,9 +90,9 @@ And then connected them into a side assembly.
 ### Assembly
 After creating the side assemblies, I brought them into a final assembly and mirrored them. Then I added Motors, Wheels and structural Supports. Because being lightweight is very important this year, the only steel parts are the central braces. The rest is made up of aluminum. The reason that we used steel for the central parts is to reduce flex between the two sides which will prevent drive issues in the future.  
 
-![Assembled Drivetrain](images/XDriveAssembly.jpeg)
+![Assembled Drivetrain](images/XDriveAssembly.jpeg){ width=100% }
 
-![](images/XDriveAssemblyBall.jpeg)
+![](images/XDriveAssemblyBall.jpeg){ width=100% }
 
 Here is the assembly with the Tri-Ball next to it. This really shocked the team because until this point we didn't fully come to terms with how large this year's game element was. 
 

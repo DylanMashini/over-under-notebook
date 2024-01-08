@@ -13,6 +13,8 @@ for file in *.md; do
     cat "$file" >> "$temp_file"
 done
 
+sed -i '' -E '/!\[.*\]\(.*\)\{ width=/! s/(!\[.*\]\(.*\))/```{=latex}\n\\begin{center}\n```\n\1{ width=75% }\n```{=latex}\n\\end{center}\n```/g' "$temp_file"
+
 # Now convert the concatenated markdown to a desired format, e.g., PDF
 # Output the result to output.pdf
 pandoc "$temp_file" -o output.pdf -f markdown-implicit_figures --toc --toc-depth=1

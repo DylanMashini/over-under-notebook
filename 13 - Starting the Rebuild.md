@@ -8,6 +8,7 @@ Let's go over all the subsystems of the robot and evaluate their performance.
 
 #### The Good
 The drivetrain was extremely effective at what we wanted. It was able to be very nimble, and the lack of force was made up for by being very quick and snappy. We never got pinned by a stronger bot, and were still able to push Tri-Balls under the goal. 
+
 #### The Bad
 There was an issue with 2 of the motors, but we replaced them and don't anticipate this happening again in the future. More comprehensive testing is the only way I can think of avoiding something like this in the future. 
 
@@ -18,7 +19,9 @@ The intake worked for what we needed it too, but was definitely a weak point for
 
 #### The Bad
 The intake caused a massive problem that lost us a round. It intaked underneath the catapult. This was definitely the driver's fault (me). I think I accidentally pressed the intake button instead of the outtake button, but now that we know, we should design our robot to make this impossible. Another issue was when it was holding a Tri-Ball and moving around, it had a tendency to fall out the top. Because of these issues, and overall not being satisfied with the design, we are scrapping this intake and starting from scratch. I don't know what this new intake is going to look like yet, but right now I think that it will probably be decoupled from the catapult, because right now it looks like over under gameplay doesn't require intake to catapult very often. 
+
 ### Catapult
+
 #### The Good
 The catapult was pretty good, and worked throughout the competition. The slip gear held up, and our catapult remained pretty consistent throughout. We did match loads in about half of our rounds, and we were able to get ~90% of Tri-Balls across the bar. 
 

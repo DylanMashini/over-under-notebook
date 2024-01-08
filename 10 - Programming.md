@@ -100,7 +100,7 @@ Here are all the different possible states we determined are needed:
 
 Here's a diagram of how we transition between states
 
-![](images/stateMachine.jpeg)
+![](images/stateMachine.jpeg){ width=100% }
 
 Here's what each state actually does inside of the code, and when it transitions. I'll try to prevent it from getting too technical, but I will be including lots of code in here to show how it actually works behind the scenes. 
 

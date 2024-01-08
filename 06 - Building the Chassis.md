@@ -21,11 +21,11 @@ We know that X drives go at $\sqrt{2}$ times the speed of a Comparable Tank Driv
 
 First, consider a Tank Drive that is moving directly forwards compared to a X Drive moving Diagonally. 
 
-![](images/XDriveExampleOne.jpeg)
+![](images/XDriveExampleOne.jpeg){ width=100% }
 
 In this scenario, both will have the same max speed, but the X drive will have less force. This is because the RPM is the same for the motors and there are motors facing directly the direction the bot needs to go in both robots. Let's look at a more common scenario where both bots are going forwards:
 
-![](images/XDriveExampleTwo.jpeg)
+![](images/XDriveExampleTwo.jpeg){ width=100% }
 
 In this scenario, where both are traveling in the forward direction, the X drive has all 4 motors going at full RPM, but in different directions. When it balances out, you are going 1 speed unit forward, and one left. This makes it easy to represent it as a Right Triangle. 
 

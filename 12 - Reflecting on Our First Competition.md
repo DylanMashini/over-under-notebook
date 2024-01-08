@@ -17,6 +17,7 @@ This round was another win. We won 94-83, but this was good because we acted as 
 
 ### Prelim 5 (R35)
 We also won this round. We won 70-27. To give our opponent's some credit, they did well considering one of the teams didn't show up. We acted as an over, and were able to match load all of the Tri-Balls. 
+
 ### Prelim 6 (R43)
 This was a really bad round. At the beginning, we had the preload in our intake, and our catapult was up. We were planning on going to put it into the low goal first thing, but when we went to do that, I pressed the wrong button and ran the intake in the intake direction. This was really bad because it stuck the Tri-Ball under our catapult. Even worse, this counted as possession, so we were effectively disabled for the round, we slammed the bot against the wall trying to get it out, but it was stuck there. This caused us to lose the round 15-95. 
 

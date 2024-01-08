@@ -83,6 +83,16 @@ For the design of our Double Reverse Four Bar lift, we decided to refer to the v
 
 ![](images/VexDR4B.png)
 
-First, we definitely don't want to use a Vex clamp like displayed in the image. This is because it would be unlikely to hold the weight of our robot well, and we also would prefer a passive clamp because we don't want to use a motor where one isn't necessary. This task is well suited for a passive mechanism because it only has to happen once during a match, so resetting it outside of a match is viable. 
+First, we definitely don't want to use a Vex clamp like displayed in the image (circled in black). This is because it would be unlikely to hold the weight of our robot well, and we also would prefer a passive clamp because we don't want to use a motor where one isn't necessary. This task is well suited for a passive mechanism because it only has to happen once during a match, so resetting it outside of a match is viable. Here's a picture of a clamp that we found online, that we are considering iterating off of for creating ours. There are a few issues that I can identify looking at the image of the clamp. 
+
+
 
 ![](images/PassiveClamp.png)
+
+There are a few issues that I can identify looking at the image of the clamp. First, the band's path seems very prone to obstructions, and like it might not provide enough tension. Second, the whole thing looks crooked, which is a sign that it might not work consistently throughout a competition. Lastly, the way that this clamp locks is questionable. It takes a lot of power to just push a c Chanel past a 1x2 plate, and I just don't see how that's going to work without the plate just moving and being unable to keep the C Chanel locked.  
+
+Here's a picture with the problematic locking mechanism I'm taking about circled. 
+
+![](images/PassiveClampMarkedUp.png)
+
+The only way to find out if these things are going to be problems is to actually build it and prototype though. 

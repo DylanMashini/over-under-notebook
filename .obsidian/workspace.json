@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2fe8945fedba38e2",
+        "id": "ed61d06e7f64a553",
         "type": "tabs",
         "children": [
           {
-            "id": "fd61f5a72f42f5aa",
+            "id": "b9373751861cdf25",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,13 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd61f5a72f42f5aa",
+  "active": "b9373751861cdf25",
   "lastOpenFiles": [
+    "19 - Conquering Endgame (Part 1).md",
+    "images/PassiveClampMarkedUp.png",
+    "PassiveClampMarkedUp.png",
+    "PassiveClamp 2.png",
+    "PassiveClamp.png",
     "images/PassiveClamp.png",
     "images/VexDR4B.png",
     "Pasted image 20240107190748.png",
     "VexDR4B.png",
-    "19 - Conquering Endgame (Part 1).md",
     "Pasted image 20240107190705.png",
     "Pasted image 20240107190747.png",
     "18 - Creating and Growing a New Team.md",
@@ -168,17 +172,12 @@
     "08 - Designing a Intake.md",
     "06 - Building the Chassis.md",
     "07 - Building The Catapult.md",
-    "images/Flags.jpg",
     "11 - Preparing for Our First Comp of the Year.md",
     "10 - Programming.md",
     "17 - Building The Wings.md",
-    "images/CardboardWing.jpg",
     "16 - Building The Puncher.md",
     "15 - Designing The Wings.md",
     "02 - Deciding on The Chassis.md",
-    "images/VexHangingMech.png",
-    "images/DR4BCompressed.png",
-    "Pasted image 20240107005316.png",
     "14 - Designing the Puncher.md",
     "CoverPage.pdf",
     "Copy of VRC Digital Notebook - Template v2.1.pdf",

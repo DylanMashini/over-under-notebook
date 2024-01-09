@@ -96,3 +96,4 @@ Here's a picture with the problematic locking mechanism I'm taking about circled
 ![](images/PassiveClampMarkedUp.png)
 
 The only way to find out if these things are going to be problems is to actually build it and prototype though. 
+

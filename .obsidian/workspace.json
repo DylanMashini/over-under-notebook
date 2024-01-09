@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ed61d06e7f64a553",
+        "id": "7cbb2efb66798c27",
         "type": "tabs",
         "children": [
           {
-            "id": "b9373751861cdf25",
+            "id": "15267e5d93cf668c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "19 - Conquering Endgame (Part 1).md",
+                "file": "20 - Puncher Practice.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "19 - Conquering Endgame (Part 1).md",
+                "file": "20 - Puncher Practice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "19 - Conquering Endgame (Part 1).md",
+                "file": "20 - Puncher Practice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "19 - Conquering Endgame (Part 1).md"
+                "file": "20 - Puncher Practice.md"
               }
             }
           }
@@ -146,53 +147,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9373751861cdf25",
+  "active": "d73388d7e523639d",
   "lastOpenFiles": [
-    "19 - Conquering Endgame (Part 1).md",
-    "images/PassiveClampMarkedUp.png",
-    "PassiveClampMarkedUp.png",
-    "PassiveClamp 2.png",
-    "PassiveClamp.png",
-    "images/PassiveClamp.png",
-    "images/VexDR4B.png",
-    "Pasted image 20240107190748.png",
-    "VexDR4B.png",
-    "Pasted image 20240107190705.png",
-    "Pasted image 20240107190747.png",
-    "18 - Creating and Growing a New Team.md",
-    "20 - Puncher Practice.md",
+    "output.pdf.sb-f89c5259-HepC3D",
+    "images/AngleForLauncher.jpeg",
     "21 - Flipping the Puncher.md",
+    "06 - Building the Chassis.md",
+    "10 - Programming.md",
+    "09 - Building the Intake.md",
+    "08 - Designing a Intake.md",
+    "05 - Adding A Catapult.md",
+    "03 - Designing a X Drive.md",
+    "20 - Puncher Practice.md",
+    "19 - Conquering Endgame (Part 1).md",
+    "images/VexDR4B.png",
+    "images/PassiveClampMarkedUp.png",
+    "images/PassiveClamp.png",
+    "18 - Creating and Growing a New Team.md",
+    "images/VexHangingMech.png",
+    "images/DR4BCompressed.png",
+    "images/DR4B.png",
+    "19 - Conquering Endgame.md",
     "22 - Scouting.md",
     "00 - Frontmatter.md",
-    "01 - Meta (Starting The Journal).md",
-    "09 - Building the Intake.md",
     "13 - Starting the Rebuild.md",
-    "12 - Reflecting on Our First Competition.md",
-    "03 - Designing a X Drive.md",
-    "08 - Designing a Intake.md",
-    "06 - Building the Chassis.md",
-    "07 - Building The Catapult.md",
     "11 - Preparing for Our First Comp of the Year.md",
-    "10 - Programming.md",
+    "15 - Designing The Wings.md",
+    "01 - Meta (Starting The Journal).md",
+    "18 - Creating a New Team.md",
     "17 - Building The Wings.md",
     "16 - Building The Puncher.md",
-    "15 - Designing The Wings.md",
-    "02 - Deciding on The Chassis.md",
-    "14 - Designing the Puncher.md",
     "CoverPage.pdf",
     "Copy of VRC Digital Notebook - Template v2.1.pdf",
     "output.pdf",
     "modified.markdown",
+    "14 - Designing the Puncher.md",
+    "12 - Reflecting on Our First Competition.md",
     "AP Lang Questions.md",
     "out.pdf",
     "out.log",
     "out.tex",
+    "02 - Deciding on The Chassis.md",
+    "images/InnerWingPolycarb.jpg",
+    "images/CardboardWing.jpg",
     "CardboardWing.heic",
+    "images/PneumaticPivot.jpg",
     "04 - The Over Role.md",
-    "05 - Adding A Catapult.md",
     "output.pdf.sb-face2305-s910sk",
     "Notebook.pdf",
-    "Descoring.md",
     "Untitled.canvas"
   ]
 }

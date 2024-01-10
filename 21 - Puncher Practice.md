@@ -18,3 +18,5 @@ To start, our programmer loaded code that cycled the puncher at 75% speed. This 
 - Let $\theta$ equal the total amount of rotation that the catapult travels in a cycle
 
 ![](images/AngleForLauncher.jpeg){ width=40% }
+
+The way that we have the puncher set up, the motor must travel one full revolution for it to shoot. This means that it is pretty simple to calculate what is needed to make 

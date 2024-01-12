@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7cbb2efb66798c27",
+        "id": "da808427847ea139",
         "type": "tabs",
         "children": [
           {
-            "id": "15267e5d93cf668c",
+            "id": "006c06d09f2d3535",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20 - Building Endgame.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69b420c0313cf855",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "19 - Conquering Endgame (Part 1).md",
+                "file": "15 - Designing The Wings.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "INSERT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20 - Building Endgame.md",
+                "file": "15 - Designing The Wings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20 - Building Endgame.md",
+                "file": "15 - Designing The Wings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20 - Building Endgame.md"
+                "file": "15 - Designing The Wings.md"
               }
             }
           }
@@ -158,16 +146,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15267e5d93cf668c",
+  "active": "006c06d09f2d3535",
   "lastOpenFiles": [
-    "19 - Conquering Endgame (Part 1).md",
-    "20 - Building Endgame.md",
+    "images/Joint.jpeg",
+    "images/WingBefore.jpeg",
+    "images/RobotAssembley_2024-Jan-12_04-06-29PM-000_CustomizedView20252417668_jpg.jpg",
+    "15 - Designing The Wings.md",
+    "images/WingsExtended.jpeg",
+    "images/RobotWingBlur.jpg",
+    "images/RobotAssembley_2024-Jan-11_07-05-36PM-000_CustomizedView43762337077_jpg.jpg",
+    "17 - Building The Wings.md",
+    "16 - Building The Puncher.md",
+    "14 - Designing the Puncher.md",
+    "images/PuncherFrame.jpg",
+    "images/CatapultAssembley_2023-Nov-17_05-03-48PM-000_CustomizedView4039604308_jpg.jpg",
+    "images/RobotWithPuncher.jpg",
+    "images/RobotAssembley_2024-Jan-11_04-13-04PM-000_CustomizedView20496560923_jpg.jpg",
+    "images/CounterSunk.jpeg",
     "22 - Flipping the Puncher.md",
+    "21 - Puncher Practice.md",
+    "20 - Building Endgame.md",
+    "19 - Conquering Endgame (Part 1).md",
     "23 - Scouting.md",
     "20 - Puncher Practice.md",
-    "21 - Puncher Practice.md",
     "output.pdf.sb-f89c5259-HepC3D",
-    "images/AngleForLauncher.jpeg",
     "21 - Flipping the Puncher.md",
     "06 - Building the Chassis.md",
     "10 - Programming.md",
@@ -175,36 +177,22 @@
     "08 - Designing a Intake.md",
     "05 - Adding A Catapult.md",
     "03 - Designing a X Drive.md",
-    "images/VexDR4B.png",
-    "images/PassiveClampMarkedUp.png",
-    "images/PassiveClamp.png",
     "18 - Creating and Growing a New Team.md",
-    "images/VexHangingMech.png",
-    "images/DR4BCompressed.png",
-    "images/DR4B.png",
     "19 - Conquering Endgame.md",
     "22 - Scouting.md",
     "00 - Frontmatter.md",
     "13 - Starting the Rebuild.md",
     "11 - Preparing for Our First Comp of the Year.md",
-    "15 - Designing The Wings.md",
     "01 - Meta (Starting The Journal).md",
     "18 - Creating a New Team.md",
-    "17 - Building The Wings.md",
-    "16 - Building The Puncher.md",
     "CoverPage.pdf",
     "Copy of VRC Digital Notebook - Template v2.1.pdf",
     "output.pdf",
     "modified.markdown",
-    "14 - Designing the Puncher.md",
-    "12 - Reflecting on Our First Competition.md",
     "out.pdf",
     "out.log",
     "out.tex",
-    "images/InnerWingPolycarb.jpg",
-    "images/CardboardWing.jpg",
     "CardboardWing.heic",
-    "images/PneumaticPivot.jpg",
     "output.pdf.sb-face2305-s910sk",
     "Untitled.canvas"
   ]

@@ -11,7 +11,7 @@ The design for the puncher is going to be pretty simple. Essentially, we are pla
 
 Right now, the current Catapult Frame makes it difficult to install a platform on top. To install it, first we have to add 2 c channels that it can be mounted to. 
 
-**INSERT 2 C Chanels Frame**
+![](images/PuncherFrame.jpg)
 
 After that, I could add a metal plate on top for the tri-ball to mount to. I built this in real life first, so I could figure out what the proper distance apart to put the standoffs for the Tri-Ball to fit nicely in. 
 
@@ -25,8 +25,10 @@ After finishing that, I had to add the slip gear gear. I didn't actually cut a g
 
 Now that I have the gears done, I just have to finish the puncher itself. The puncher consists of a standoff with a spacer at the end. The spacer has a screw countersunk into it, so it hits the Tri-Ball consistently. 
 
-**INSERT IMAGE OF STANDOFF PUNCHER**
+![](images/CounterSunk.jpeg)
+
+The way that we plan to countersink the screw into the spacer is by drilling out the spacer first. The purpose is so that the point where the puncher contacts the tri-ball is as flat as possible, creating a more consistent launch. 
 
 This is all we need for the puncher design, and it's ready to be built. Here's a picture of it in the robot assembly. 
 
-**INSERT IMAGE**
+![](images/RobotWithPuncher.jpg)

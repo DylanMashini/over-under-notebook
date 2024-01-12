@@ -9,7 +9,24 @@ The first (and probably easiest) problem that I want to tackle is the clamp. Alt
 
 First, it needs to be able to handle the weight of the robot, including the whole endgame lift. This is going to be pretty heavy, so for prototyping clamps I'm going to use a 20 pound dumbell to test it's load bearing ability. 
 
+
 Second, it needs to be able to handle a changing center of gravity. This is important, because the easiest solution would be some type of gravity lock, but that would struggle with the changing center of gravity. When center of gravity is far below the clamp, a gravity lock would hold fine, but as the robot's center of gravity approaches the height of the clamp, slippage becomes more likely. 
 
-We can verify this using some phyiscs:
-We know that the maximum force that can be applied before the clamp slips is going to be equal to the maximum coefficient of static friction ($\textmu_{max}$) multiplied with the normal force ($F_N$). This is going to be constant no matter what, because it is based on the materials contacting
+Here's a diagram I made of what I mean when I say a gravity lock:
+
+![](images/ClampDiagram.jpeg)
+
+We can verify that the change in center of gravity can be problematic using physics:
+
+The way that this type of lock functions, is by using the weight of the robot to push into the pole on either side, allowing friction to prevent it from sliding. 
+![](images/GravityLockBasicForces.jpeg)
+
+So the weight of the robot is pushing horizontally against the pole, which increases the normal force. 
+
+We know that the maximum force that can be applied before the clamp slips is going to be equal to the maximum coefficient of static friction ($\textmu_{max}$) multiplied by the normal force ($F_N$). $\textmu_{max}$ is going to remain constant, because it is a property of the materials in contact (clamp and pole). This means that $F_N$ is going to be the primary thing that influences how effective the clamp is. For the clamp not to slip, the frictional force ($\textmu_{max} \cdot F_N$) must be greater then the force of gravity($F_g$). 
+
+
+If the robot's center of gravity is aligned with the gravity lock, friction will decrease, and the robot will slip down. 
+
+![](images/FinalGravityLock.jpeg)
+

@@ -74,6 +74,41 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "13 - Starting the Rebuild.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "14 - Designing the Puncher.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "15 - Designing The Wings.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "17 - Building The Wings.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "19 - Conquering Endgame (Part 1).md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "21 - Puncher Practice.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "22 - Flipping the Puncher.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "23 - Scouting.md"
         }
     ]
 }

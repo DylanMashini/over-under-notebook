@@ -23,7 +23,7 @@ The way that this type of lock functions is by using the weight of the robot to 
 
 So the weight of the robot is pushing horizontally against the pole, which increases the normal force. 
 
-We know that the maximum force that can be applied before the clamp slips is going to be equal to the maximum coefficient of static friction ($\textmu_{max}$) multiplied by the normal force ($F_N$). $\textmu_{max}$ is going to remain constant, because it is a property of the materials in contact (clamp and pole). This means that $F_N$ is going to be the primary thing that influences how effective the clamp is. For the clamp not to slip, the frictional force ($\textmu_{max} \cdot F_N$) must be greater than the force of gravity($F_g$). 
+We know that the maximum force that can be applied before the clamp slips is going to be equal to the maximum coefficient of static friction ($\textmu_{max}$) multiplied by the normal force ($F_N$). $\textmu_{max}$ is going to remain constant because it is a property of the materials in contact (clamp and pole). This means that $F_N$ is going to be the primary thing that influences how effective the clamp is. For the clamp not to slip, the frictional force ($\textmu_{max} \cdot F_N$) must be greater than the force of gravity($F_g$). 
 
 
 If the robot's center of gravity is aligned with the gravity lock, friction will decrease, and the robot will slip down. 
@@ -32,7 +32,7 @@ If the robot's center of gravity is aligned with the gravity lock, friction will
 
 This is why we decided to use a locking clamp, rather than a gravity lock. We built this prototype, and it works ~80% of the time, so it's good for now. I'm sure we are going to need to improve on this, but right now I want to move onto the lift itself. 
 
-I first built a sled for the lift to be mounted on. This sled has to be very structurally stable, as it has to support the weight of the robot. Here's a picture, and you can see the sled is attatched directly to the structural bars on the chassis. 
+I first built a sled for the lift to be mounted on. This sled has to be very structurally stable, as it has to support the weight of the robot. Here's a picture, and you can see the sled is attached directly to the structural bars on the chassis. 
 
 ![](images/StartDR4B.jpeg)
 
@@ -77,7 +77,7 @@ Unfortunately, even with it all assembled, we had one big problem. The lift was 
 
 ![](images/BandingOnDR4B.png)
 
-At this point, we had spent well over 30 hours of just trying to get it to work, and there are a lot of potential solutions we prototyped that I didn't include here. We had been really hesitant to scrap it, because of how much time we had invested, but this wasn't sound reasoning. This is a perfect example of the sunk-cost fallacy, where we were avoiding cutting our losses because of how much we put into the lift. 
+At this point, we had spent well over 30 hours just trying to get it to work, and there were a lot of potential solutions we prototyped that I didn't include here. We had been really hesitant to scrap it, because of how much time we had invested, but this wasn't sound reasoning. This is a perfect example of the sunk-cost fallacy, where we were avoiding cutting our losses because of how much we put into the lift. 
 
 I wish there was a clear conclusion here about why it didn't work, or a way we could fix it, but at this point, it feels like we have tried everything for this lift. My theory on why it didn't work is that when we scaled up the four-bar lift that we saw online, we surpassed some point where this type of lift ceased to be viable. Looking back on it, a smaller more targeted lift would be ideal. It makes sense why we haven't seen any lift systems at other comps, because they are really difficult to build. 
 

@@ -9,15 +9,15 @@ The design for the puncher is going to be pretty simple. Essentially, we are pla
 
 ## Adding the platform on top
 
-Right now, the current Catapult Frame makes it difficult to install a platform on top. To install it, first we have to add 2 c channels that it can be mounted to. 
+Right now, the current Catapult Frame makes it difficult to install a platform on top. To install it, first, we have to add 2 c channels that it can be mounted to. 
 
 ![](images/PuncherFrame.jpg)
 
-After that, I could add a metal plate on top for the tri-ball to mount to. I built this in real life first, so I could figure out what the proper distance apart to put the standoffs for the Tri-Ball to fit nicely in. 
+After that, I could add a metal plate on top for the tri-ball to mount to. I built this in real life first, so I could figure out the proper distance apart to put the standoffs for the Tri-Ball to fit nicely in. 
 
 ![](images/PuncherPlate.jpeg)
 
-After finishing that, I had to add the slip gear gear. I didn't actually cut a gear, because there wasn't a good way to simulate the motion in CAD, so there wasn't any real benefit to cutting the gear in CAD. This is the first time I'm putting a geartrain in CAD, and I couldn't find any vex specific tutorials. I found a general one that showed the process from creating a gear drawing to meshing two gears together with a gear ratio. To do this, I had to use a asbuilt revolute joint, and link the motion of these joints using the gear ratio. This took a while to figure out, but it works great. Here's some pictures of the gears together. 
+After finishing that, I had to add the slip gear gear. I didn't actually cut a gear, because there wasn't a good way to simulate the motion in CAD, so there wasn't any real benefit to cutting the gear in CAD. This is the first time I'm putting a geartrain in CAD, and I couldn't find any vex-specific tutorials. I found a general one that showed the process from creating a gear drawing to meshing two gears together with a gear ratio. To do this, I had to use an asbuilt revolute joint and link the motion of these joints using the gear ratio. This took a while to figure out, but it works great. Here are some pictures of the gears together. 
 
 ![](images/gearsMeshed.jpeg)
 

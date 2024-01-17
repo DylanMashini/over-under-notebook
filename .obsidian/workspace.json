@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "da808427847ea139",
+        "id": "7f4c36618b083302",
         "type": "tabs",
         "children": [
           {
-            "id": "006c06d09f2d3535",
+            "id": "1b0414bfc69bac8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15 - Designing The Wings.md",
+                "file": "04 - The Over Role.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15 - Designing The Wings.md",
+                "file": "04 - The Over Role.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "15 - Designing The Wings.md",
+                "file": "04 - The Over Role.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15 - Designing The Wings.md"
+                "file": "04 - The Over Role.md"
               }
             }
           }
@@ -146,28 +146,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "006c06d09f2d3535",
+  "active": "1b0414bfc69bac8f",
   "lastOpenFiles": [
-    "images/Joint.jpeg",
-    "images/WingBefore.jpeg",
-    "images/RobotAssembley_2024-Jan-12_04-06-29PM-000_CustomizedView20252417668_jpg.jpg",
-    "15 - Designing The Wings.md",
-    "images/WingsExtended.jpeg",
-    "images/RobotWingBlur.jpg",
-    "images/RobotAssembley_2024-Jan-11_07-05-36PM-000_CustomizedView43762337077_jpg.jpg",
-    "17 - Building The Wings.md",
-    "16 - Building The Puncher.md",
-    "14 - Designing the Puncher.md",
-    "images/PuncherFrame.jpg",
-    "images/CatapultAssembley_2023-Nov-17_05-03-48PM-000_CustomizedView4039604308_jpg.jpg",
-    "images/RobotWithPuncher.jpg",
-    "images/RobotAssembley_2024-Jan-11_04-13-04PM-000_CustomizedView20496560923_jpg.jpg",
-    "images/CounterSunk.jpeg",
-    "22 - Flipping the Puncher.md",
-    "21 - Puncher Practice.md",
+    "08 - Designing an Intake.md",
+    "12 - Reflecting on Our First Competition.md",
+    "02 - Deciding on The Chassis.md",
+    "11 - Preparing for Our First Comp of the Year.md",
     "20 - Building Endgame.md",
-    "19 - Conquering Endgame (Part 1).md",
+    "21 - Puncher Practice.md",
+    "images/BandingOnDR4B.jpg",
+    "images/BandingOnDR4B.png",
+    "images/UpperBars2.png",
+    "images/Screenshot_2024-01-17_at_12.36.49_PM-removebg-preview.png",
+    "images/UpperBars.png",
+    "images/VexDR4BBanding.png",
+    "images/VexDR4BBanding.png.sb-5e4d1be6-toDYlL",
     "23 - Scouting.md",
+    "25 - Preparing For The Competition.md",
+    "19 - Conquering Endgame (Part 1).md",
+    "images/VexDR4B copy.png",
+    "24 - Hanging Mech.md",
+    "images/VexDR4B.png",
+    "images/VexDR4BBanding.jpeg.sb-5e4d1be6-GeSe7Q",
+    "images/VexDR4BBanding.jpeg",
+    "images/DR4BMotor.jpeg",
+    "22 - Flipping the Puncher.md",
+    "07 - Building The Catapult.md",
+    "01 - Meta (Starting The Notebook).md",
+    "00 - Frontmatter.md",
+    "14 - Designing the Puncher.md",
+    "15 - Designing The Wings.md",
+    "13 - Starting the Rebuild.md",
+    "CoverPage.pdf",
+    "Copy of VRC Digital Notebook - Template v2.1.pdf",
+    "images/BadNewMatchLoading.png.sb-5e4d1be6-hsfh07",
+    "16 - Building The Puncher.md",
+    "17 - Building The Wings.md",
     "20 - Puncher Practice.md",
     "output.pdf.sb-f89c5259-HepC3D",
     "21 - Flipping the Puncher.md",
@@ -176,24 +190,10 @@
     "09 - Building the Intake.md",
     "08 - Designing a Intake.md",
     "05 - Adding A Catapult.md",
-    "03 - Designing a X Drive.md",
-    "18 - Creating and Growing a New Team.md",
-    "19 - Conquering Endgame.md",
-    "22 - Scouting.md",
-    "00 - Frontmatter.md",
-    "13 - Starting the Rebuild.md",
-    "11 - Preparing for Our First Comp of the Year.md",
-    "01 - Meta (Starting The Journal).md",
-    "18 - Creating a New Team.md",
-    "CoverPage.pdf",
-    "Copy of VRC Digital Notebook - Template v2.1.pdf",
     "output.pdf",
     "modified.markdown",
     "out.pdf",
     "out.log",
-    "out.tex",
-    "CardboardWing.heic",
-    "output.pdf.sb-face2305-s910sk",
     "Untitled.canvas"
   ]
 }

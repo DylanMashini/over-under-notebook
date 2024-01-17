@@ -2,35 +2,34 @@
 ### Dylan Mashini
 ### May 24th, 2023
 
-Right now, we have no experience with holonomic drives or CAD, so we decided it would be a good idea to learn both at once. The first decision that we had to make is what CAD software to use. We have access to all Autodesk products through their education license, so we have lots of choices. Based on vex library compatibility, we have the option to use Inventor or Fusion 360. My OS of choice is MacOS, and Inventor doesn't have Mac support. Because I'll probably be the main CAD designer, that makes the decision easy. 
+Right now, we have no experience with holonomic drives or CAD, so we decided it would be a good idea to learn both at once. The first decision that we had to make was what CAD software to use. We have access to all Autodesk products through their education license, so we have lots of choices. Based on Vex library compatibility, we have the option to use Inventor or Fusion 360. My OS of choice is MacOS, and Inventor doesn't have Mac support. Because I'll probably be the main CAD designer, that makes the decision easy. 
 
 ## Learning Fusion 360
-
-To learn fusion 360, I used a few resources:
+To learn Fusion 360, I used a few resources:
 
 - Vex CAD discord
 - Kepler Electronics Youtube
 - Trial and Error
 
-These all proved useful, and using CAD for our drivetrain has definitely led to a better design then if we just threw something together like we previously would've done. 
+These all proved useful, and using CAD for our drivetrain has definitely led to a better design than if we just threw something together like we previously would've done. 
 
 ## X Drive Inspiration
-After looking through all the X drive designs we could find on the internet, this is the one that we want to take inspiration from. There isn't any videos of it actually working, or really any information about it online except for this picture, but it looks the cleanest and best. It doesn't have a heavy and bulky external frame, and is leaner then other designs. 
+After looking through all the X drive designs we could find on the internet, this is the one that we want to take inspiration from. There aren't any videos of it actually working, or really any information about it online except for this picture, but it looks the cleanest and best. It doesn't have a heavy and bulky external frame and is leaner than other designs. 
 
-![X Drive Insporation](images/XDriveDesignInspo.png)
+![X Drive Inspiration](images/XDriveDesignInspo.png)
 
 
 #### Math
 
-We need to make sure that the holes on the inner and outer tracks are aligned so we can fit an axle through it at the ends. This actually is more difficult then it sounds, because it won't just naturally lineup. Both the size of standoffs between the tracks and the length of the different parts impact if the holes will lineup. 
+We need to make sure that the holes on the inner and outer tracks are aligned so we can fit an axle through it at the ends. This actually is more difficult than it sounds, because it won't just naturally line up. Both the size of standoffs between the tracks and the length of the different parts impact if the holes will line up. 
 
 To ensure that the inner and outer tracks of the chassis design align at the angled ends, we can set up a relationship based on the known parameters.  
 
 **Defining Variables:**
 
-Let $L_i$ be the length of the inner track's central c chanel. 
+Let $L_i$ be the length of the inner track's central c channel. 
 
-Let $L_o$ be the length of the outer track's central c chanel.
+Let $L_o$ be the length of the outer track's central c channel.
 
 Let $\theta$  be the angle at which the tracks are angled relative to a horizontal axis
 
@@ -69,10 +68,10 @@ $$
 d=1.5
 $$
 
-This is perfect, because we can use $1.5in$ standoffs to separate the inner and outer track. These parameters are good to calculate so we can know that our holes are going to line up for the axle, and we can mitigate friction. 
+This is perfect because we can use $1.5in$ standoffs to separate the inner and outer tracks. These parameters are good to calculate so we can know that our holes are going to line up for the axle, and we can mitigate friction. 
 
 ## Cadded Design
-After figuring out the optimal dimensions, we created different sub assemblies. First, I created a inner and outer track
+After figuring out the optimal dimensions, we created different sub-assemblies. First, I created an inner and outer track
 
 ### Inner Track
 
@@ -88,13 +87,13 @@ And then connected them into a side assembly.
 ![](images/XDriveSideAssemblyIsometric.jpeg)
 
 ### Assembly
-After creating the side assemblies, I brought them into a final assembly and mirrored them. Then I added Motors, Wheels and structural Supports. Because being lightweight is very important this year, the only steel parts are the central braces. The rest is made up of aluminum. The reason that we used steel for the central parts is to reduce flex between the two sides which will prevent drive issues in the future.  
+After creating the side assemblies, I brought them into a final assembly and mirrored them. Then I added Motors, Wheels and Structural Supports. Because being lightweight is very important this year, the only steel parts are the central braces. The rest is made up of aluminum. The reason that we used steel for the central parts is to reduce flex between the two sides which will prevent drive issues in the future.  
 
 ![Assembled Drivetrain](images/XDriveAssembly.jpeg){ width=100% }
 
 ![](images/XDriveAssemblyBall.jpeg){ width=100% }
 
-Here is the assembly with the Tri-Ball next to it. This really shocked the team because until this point we didn't fully come to terms with how large this year's game element was. 
+Here is the assembly with the Tri-Ball next to it. This shocked the team because until this point we didn't fully come to terms with how large this year's game element was. 
 
 
 

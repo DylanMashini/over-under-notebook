@@ -6,7 +6,7 @@ For programming this year, I want the robot to be capable during the driver cont
 
 ### Option 1: Rust
 
-Rust is my favorite programming language, and I've wanted to use it for robotics for a while. If you haven't heard of rust before, the premise is that it has speed of C++, and the memory safety of high level languages like Javascript. Instead of using an expensive Garbage Collector, it uses what's called a "borrow checker." Rust's borrow checker ensures that references to data obey two rules: at any given time, either one mutable reference or any number of immutable references can access data, but not both, and references must always be valid. Ownership in Rust dictates that each value has a single owner, and when that owner goes out of scope, the value is dropped; borrowing allows access to a value without taking ownership through a reference, subject to the rules of the borrow checker. This mechanism prevents data races and null pointer dereferencing, guaranteeing memory safety without the need for a garbage collector. 
+Rust is my favorite programming language, and I've wanted to use it for robotics for a while. If you haven't heard of rust before, the premise is that it has the speed of C++ and the memory safety of high-level languages like Javascript. Instead of using an expensive Garbage Collector, it uses what's called a "borrow checker." Rust's borrow checker ensures that references to data obey two rules: at any given time, either one mutable reference or any number of immutable references can access data, but not both, and references must always be valid. Ownership in Rust dictates that each value has a single owner, and when that owner goes out of scope, the value is dropped; borrowing allows access to a value without taking ownership through a reference, subject to the rules of the borrow checker. This mechanism prevents data races and null pointer dereferencing, guaranteeing memory safety without the need for a garbage collector. 
 
 #### Rust Pros
 - Memory Safety
@@ -15,9 +15,9 @@ Rust is my favorite programming language, and I've wanted to use it for robotics
 
 #### Rust Cons
 - Less mature Vex ecosystem
-	- Rust modules are called ``crates``. Thankfully, Queens Vex-U team has released a Vex Rust Runtime. This makes it possible to use Rust, but there are a few issues with it. First, it has a safe API. This means that all references have to be valid, including motors and sensors. So if a motor is unplugged or fails mid match, the whole program panics, which isn't a good behavior for competition robotics. If our catapult motor fails, we don't want our drivetrain to stop working. 
+	- Rust modules are called ``crates``. Thankfully, the Queens Vex-U team has released a Vex Rust Runtime. This makes it possible to use Rust, but there are a few issues with it. First, it has a safe API. This means that all references have to be valid, including motors and sensors. So if a motor is unplugged or fails mid-match, the whole program panics, which isn't a good behavior for competition robotics. If our catapult motor fails, we don't want our drivetrain to stop working. 
 - No OkAPI
-	- In C++, there is a library called OkAPI available that allows you to use their odometry, and drive code inside of your program. This is very useful so you don't have to write all of those algorithms by yourself. I'm confident that we could write those algorithms, but they'd be more error prone and less efficient then the battle tested OkAPI ones. 
+	- In C++, there is a library called OkAPI available that allows you to use their odometry, and drive code inside of your program. This is very useful so you don't have to write all of those algorithms by yourself. I'm confident that we could write those algorithms, but they'd be more error-prone and less efficient than the battle-tested OkAPI ones. 
 
 
 Unfortunately, I don't think it makes sense to use Rust for this, but as the Vex Rust ecosystem improves, I hope to use it in the future. 
@@ -32,7 +32,7 @@ The Official Vex Runtime, released by Vex is the default choice. To use it, you 
 #### Pros:
 - Official Vex Support
 - Installed on School Computers
-	- Cobb County has an insane amount of restrictions built into their computers. VexCode is one of the allowed applications, so it would let me use school computers for programming. This isn't a huge issue because I usually bring my personal laptop to school, and I do most of the programming at home anyways. 
+	- Cobb County has an insane amount of restrictions built into their computers. VexCode is one of the allowed applications, so it would let me use school computers for programming. This isn't a huge issue because I usually bring my personal laptop to school, and I do most of the programming at home anyway. 
 
 #### Cons:
 - Proprietary IDE
@@ -46,13 +46,13 @@ The Official Vex Runtime, released by Vex is the default choice. To use it, you 
 
 #### Pros (No Pun Intended):
 - OkAPI support
-	- This allows us to rely on smarter people then us to write the complex algorithms. This will be more reliable, and efficient then anything I could make. 
+	- This allows us to rely on smarter people than us to write the complex algorithms. This will be more reliable, and efficient than anything I could make. 
 - Use any IDE
 	- Although there is a VSCode plugin that is recommended, there is also a CLI that you can use in any environment that you want. This means that my current setup of NeoVim and tmux will work well with Pros. 
 - More idiomatic C++ practices
 	- Uses FreeRTOS, which is a standard Real Time Operating System used in embedded programming outside of vex. Also recommends using C++ std mutexes and atomics, which I want to learn, and wouldn't with the Official Runtime 
 - Competition Legal
-	- Although Pros isn't an official vex product, they still have a competition template that is allowed for all Vex competitions. 
+	- Although Pros isn't an official Vex product, they still have a competition template that is allowed for all Vex competitions. 
 
 #### Cons:
 - No official vex support
@@ -73,7 +73,7 @@ The Official Vex Runtime, released by Vex is the default choice. To use it, you 
 | Hardware Robustness              | 4      | 4    | 6                | 6          |
 | **Total Score (out of 360)**     |        | 192  | 216              | 266        |
 
-Now that we know we are using ProsV5, we can start programing. This isn't going to be a lot of work, because we are able to use OkAPI's X Drive support, so it's just a few method calls to setup. Here is the code for driving. 
+Now that we know we are using ProsV5, we can start programming. This isn't going to be a lot of work, because we can use OkAPI's X Drive support, so it's just a few method calls to set up. Here is the code for driving. 
 
 ```cpp
 chasis.fieldOrientedXArcade(
@@ -86,23 +86,23 @@ chasis.fieldOrientedXArcade(
 
 ## Programming the Catapult
 
-To Program the catapult, we had to consider what it needed to do. The primary functionality of the catapult is for match loads. Basically, we represented the catapult as a finite state machine (FSM). If you haven't heard of state machines, the idea is that you can represent a system as being in a finite number of states, and the FSM transitions between these states. 
+To Program the catapult, we had to consider what it needed to do. The primary functionality of the catapult is for match loading. Basically, we represented the catapult as a finite state machine (FSM). If you haven't heard of state machines, the idea is that you can represent a system as being in a finite number of states, and the FSM transitions between these states. 
 
 Here are all the different possible states we determined are needed:
 - Idle
-	- The catapult is idle when it isn't enabled by the controller. The Idle state sets the motor to 0 voltage, and leaves the catapult up. 
+	- The catapult is idle when it isn't enabled by the controller. The Idle state sets the motor to 0 voltage and leaves the catapult up. 
 - Winding
 	- The winding state is the first state after the catapult turns on. It winds the catapult back to its fully down position. 
 - Locked
 	- The locked state is when the match load team member puts the Tri-Ball in. This involves maintaining the lowered position for about one second. 
 - Firing
-	- The firing state is when the slip gear goes past it's teeth to release the catapult. This has to be quick and explosive, so we use max speed. This releases the catapult and sends the Tri-Ball flying. 
+	- The firing state is when the slip gear goes past its teeth to release the catapult. This has to be quick and explosive, so we use max speed. This releases the catapult and sends the Tri-Ball flying. 
 
 Here's a diagram of how we transition between states
 
 ![](images/stateMachine.jpeg){ width=100% }
 
-Here's what each state actually does inside of the code, and when it transitions. I'll try to prevent it from getting too technical, but I will be including lots of code in here to show how it actually works behind the scenes. 
+Here's what each state actually does inside of the code, and when it transitions. I'll try to prevent it from getting too technical, but I will be including lots of code here to show how it actually works behind the scenes. 
 
 #### Idle State
 
@@ -115,10 +115,10 @@ if (catapultState == IDLE) {
 }
 ```
 
-In the catapult code, stuckCount is used to figure out if there is an error happening. For example, if something is preventing the catapult from winding, and it keeps winding for a long time, stuckCount increases until it hits a threshold. At that point, it resets the catapult by turning the motor off for a few seconds, then tries again. We reset stuckCount so it doesn't increment and hit it's limit throughout multiple cycles. 
+In the catapult code, stuckCount is used to figure out if there is an error happening. For example, if something is preventing the catapult from winding, and it keeps winding for a long time, stuckCount increases until it hits a threshold. At that point, it resets the catapult by turning the motor off for a few seconds, then tries again. We reset stuckCount so it doesn't increment and hit its limit throughout multiple cycles. 
 
 #### Winding State
-The way that motors work in Vex, is that they maintain an absolute position throughout the program running. This is measured in encoder ticks. There are 1800 encoder ticks in one rotation. This absolute position starts at 0 when you initialize the motor, and increases as the motor rotates. When you want to move the motor to a specific position, you give it an absolute position. This means that if you want to reset the motor back to where it started rotating less than one full rotation in the positive direction, you'd need to set it to go to the next multiple of 1800. In this code, we have a variable called ``absoluteNextZero`` that represents the next absolute position where the robot is at its initial position. For this code, assume that the robot's initial position was all the way down where we want the catapult to lock. 
+The way that motors work in Vex, is that they maintain an absolute position throughout the program running. This is measured in encoder ticks. There are 1800 encoder ticks in one rotation. This absolute position starts at 0 when you initialize the motor and increases as the motor rotates. When you want to move the motor to a specific position, you give it an absolute position. This means that if you want to reset the motor back to where it started rotating less than one full rotation in the positive direction, you'd need to set it to go to the next multiple of 1800. In this code, we have a variable called ``absoluteNextZero`` that represents the next absolute position where the robot is at its initial position. For this code, assume that the robot's initial position was all the way down where we want the catapult to lock. 
 
 Here is the code used for the ``WINDING`` state of the catapult. 
 
@@ -158,7 +158,7 @@ if (catapultState == WINDING) {
       }
 ```
 
-This is the most complex stage of the catapult, and notice the amount of seemingly arbitrary constants. These came out of hours of testing to figure out how we can get a consistent launch cycle. A way to make this work better is going to be using a housemade PID. The ``move_absolute`` method uses the built in PID built into the vex firmware. This has some issues, especially in our scenario, where the amount of work done by the motor differs massively depending where the slip gear is. I also think it would be a good exercise to build our own PID. 
+This is the most complex stage of the catapult, and notice the amount of seemingly arbitrary constants. These came out of hours of testing to figure out how we can get a consistent launch cycle. A way to make this work better is to use a housemade PID. The ``move_absolute`` method uses the built-in PID built into the vex firmware. This has some issues, especially in our scenario, where the amount of work done by the motor differs massively depending where the slip gear is. I also think it would be a good exercise to build our own PID. Unfortunately, we don't have time to fully build out a custom PID, and test it. 
 
 #### Locked
 The locked state of the catapult is where the match load enters the catapult. 
@@ -198,4 +198,4 @@ if (catapultState == FIRING) {
       }
 ```
 
-That's basically all of the catapult code. It's quite simple when you abstract it with the idea of a Finite State Machine. Before I started using the FSM pattern, I had really complex convoluted code that barely worked based on weird conditions of the motor. Using a FSM simplifies this significantly. This code has one drawback, which is the requirement to start in the same place every run. I have this set to be right before the first tooth of the slip gear. 
+That's basically all of the catapult code. It's quite simple when you abstract it with the idea of a finite-state machine. Before I started using the FSM pattern, I had complex convoluted code that barely worked based on weird conditions of the motor. Using an FSM simplifies this significantly. This code has one drawback, which is the requirement to start in the same place every run. I have this set to be right before the first tooth of the slip gear. 

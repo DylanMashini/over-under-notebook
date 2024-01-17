@@ -1,0 +1,79 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "20 - Building Endgame.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "01 - Meta (Starting The Notebook).md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "02 - Deciding on The Chassis.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "03 - Designing a X Drive.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "04 - The Over Role.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "05 - Adding A Catapult.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "06 - Building the Chassis.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "07 - Building The Catapult.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "08 - Designing a Intake.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "08 - Designing an Intake.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "09 - Building the Intake.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "10 - Programming.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "11 - Preparing for Our First Comp of the Year.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "12 - Reflecting on Our First Competition.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "13 - Starting the Rebuild.md"
+        }
+    ]
+}

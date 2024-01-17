@@ -19,3 +19,5 @@ Another benefit of doing this is that cardboard is much easier to cut then polyc
 After finishing the build with cardboard, I cut and added the polycarb, and it looks great. 
 
 ![](images/InnerWingPolycarb.jpg)
+
+Out of all the mechanisms that we've built, I think that the wings are going to provide the best value for the least effort to build. 

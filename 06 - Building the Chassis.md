@@ -12,18 +12,18 @@ Right now I have a general idea of where these things should go, but I'll have t
 
 ## Building
 
-I started by creating the inner and outer tracks of the X drive. These were pretty straightforward, but midway through we ran out of $45^\circ$ gussets. To continue being productive, I attached all 4 C Chanels together before adding the angled ends. This ended up making things more difficult when I had to put in the motors, axles, and wheels. 
+I started by creating the inner and outer tracks of the X drive. These were pretty straightforward, but midway through we ran out of $45^\circ$ gussets. To continue being productive, I attached all 4 C channels before adding the angled ends. This ended up making things more difficult when I had to put in the motors, axles, and wheels. 
 
 ### Adding Motors
-One thing that the team hasn't thought about is what gear cartridges we are going to use. This was our first time making a X Drive, so we didn't have a good perspective on what would work well. Let's do some quick calculations to figure that out. 
+One thing that the team hasn't thought about is what gear cartridges we are going to use. This was our first time making an X Drive, so we didn't have a good perspective on what would work well. Let's do some quick calculations to figure that out. 
 
 We know that X drives go at $\sqrt{2}$ times the speed of a Comparable Tank Drive because of a vexforum post, but it isn't explained well anywhere. Many people explain it as a vector addition operation, which seems intuitive enough, but you shouldn't need that level of mathematical abstraction to explain something so simple. Let's look at some example cases to figure this out. 
 
-First, consider a Tank Drive that is moving directly forwards compared to a X Drive moving Diagonally. 
+First, consider a Tank Drive that is moving directly forward compared to a X Drive moving Diagonally. 
 
 ![](images/XDriveExampleOne.jpeg){ width=100% }
 
-In this scenario, both will have the same max speed, but the X drive will have less force. This is because the RPM is the same for the motors and there are motors facing directly the direction the bot needs to go in both robots. Let's look at a more common scenario where both bots are going forwards:
+In this scenario, both will have the same max speed, but the X drive will have less force. This is because the RPM is the same for the motors and the motors are facing directly the direction the bot needs to go in both robots. Let's look at a more common scenario where both bots are going forward:
 
 ![](images/XDriveExampleTwo.jpeg){ width=100% }
 
@@ -41,10 +41,10 @@ $$
 $$
 C=\sqrt{2}
 $$
-This proves that when traveling forwards, an X drive will have $\sqrt{2}$ times the speed. This comes at at a cost though, because Force and Speed are inverses of each other. That means that a $\sqrt{2}$  increase in speed leads to a $\frac{1}{\sqrt{2}}$ times decrease in Force. To balance this tradeoff, we decided to use a green cartridge instead of a blue cartridge that we used last year. Let's calculate some stats using a Green Cartridge
+This proves that when traveling forwards, an X drive will have $\sqrt{2}$ times the speed. This comes at a cost though, because Force and Speed are inverses of each other. That means that a $\sqrt{2}$  increase in speed leads to a $\frac{1}{\sqrt{2}}$ times decrease in Force. To balance this tradeoff, we decided to use a green cartridge instead of a blue cartridge like we did last year. Let's calculate some stats using a Green Cartridge
 
 ##### Max Speed:
-To calculate Max speed of an X drive, we can calculate the Max speed of the same robot with a tank drive configuration and multiply by $\sqrt{2}$. A green cartridge is 200rpm. These calculations are easier because we are using a direct drive without any gear ratio. 
+To calculate the Max speed of an X drive, we can calculate the Max speed of the same robot with a tank drive configuration and multiply by $\sqrt{2}$. A green cartridge is 200rpm. These calculations are easier because we are using a direct drive without any gear ratio. 
 
 - Let $v_{max}$ be the maximum speed
 - Let $c$ be the circumference of the wheel
@@ -57,7 +57,7 @@ $$
 v_{max}=RPM \times c \times \sqrt{2}
 $$
 
-With that in mind, we just have to calculate the $c$ value. We plan to use 3.25 inch omni-wheels. 3.25" refers to the diameter of the wheels, meaning that we can calculate the circumference. 
+With that in mind, we just have to calculate the $c$ value. We plan to use 3.25-inch omni-wheels. 3.25" refers to the diameter of the wheels, meaning that we can calculate the circumference. 
 $$
 r=\frac{d}{2}
 $$
@@ -69,7 +69,7 @@ c = \pi \times (\frac{3.25}{2})^2
 $$$$
 c \approx 2.64
 $$
-Now we can plug that in to our formula from before:
+Now we can plug that into our formula from before:
 $$
 v_{max} \approx 200 \times 2.64 \times \sqrt{2}
 $$
@@ -85,7 +85,7 @@ $$
 v_{max} \approx 12.445 \; \frac{inches}{minute}
 $$
 
-I'm planning to verify this after it is built, and see if we actually reach that max speed. 
+I'm planning to verify this after it is built and see if we reach that max speed. 
 
 
 ### Constructing Wheels + Motors
@@ -93,6 +93,6 @@ To add wheels, axles, and motors, we must figure out the correct amount of space
 
 ![](images/Wheel.jpeg)
 
-This made it significantly easier, and the number of spacers shown fits perfectly. Now, I just have to repeat the installation process three more times. 
+This made it significantly easier, and the number of spacers shown fit perfectly. Now, I just have to repeat the installation process three more times. 
 
 

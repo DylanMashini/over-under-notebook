@@ -24,14 +24,13 @@ To start, I added C Chanels on the sides of the robot. These would mount the C c
 
 After adding those two C Chanels, I added the pivoting wings. These were connected to the initial C Chanels with a screw joint. I chose to us a screw joint rather than an axle joint because a screw joint has significantly less slop. This will make the wing work better overall, and also make it smoother. The pivot part slightly clips with the wing's C Chanel, but this can be easily addressed when we actually build it by bending the pivot part.
 
-**INSERT IMAGE OF JOINT**
+![](images/Asbuilt.jpeg)
 
 After this, I had to connect the pneumatic system. I decided I was only going to put the cylinder in the CAD, because there isn't really a need to put any of the tubes and other pneumatic equipment in, and it would be a waste of time to do that. I added in one of the pivot parts I was talking about earlier, and jointed the piston of the pneumatic cylinder to it. 
 
 ![](images/Joint.jpeg)
 
 Then, I connected the end of the piston to a standoff connected to the chassis using a screw joint. As you can see, it is a couple of millimeters off, but we plan on not tightening the nut all the way, so it should work fine. This was necessary because there isn't anywhere where the holes are going to perfectly line up, because the pneumatic cylinder is a non standard size in the vex ecosystem. To represent this in CAD, I just left it a few millimeters off, and connected them using a asbuilt joint. Asbuilt joints don't move the components, but capture the position where everything was when you jointed it. 
-
 
 
 
@@ -43,4 +42,4 @@ And here's what it looks like when it's retracted:
 ![](images/RobotWingBlur.jpg)
 
 
-As you can see, the wing sits pretty high up on the robot. This is unfortunate because of the polycarbonate usage and decrease in strength and stability, but it will still work well, and give us a good edge. 
+As you can see, the wing sits pretty high up on the robot. This is unfortunate because of the polycarbonate usage and decrease in strength and stability, but it will still work well, and give us a good edge. Overall, I'm confident in the current wing design, and think that this will create a significant competitive advantage. 

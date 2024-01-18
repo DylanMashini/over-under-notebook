@@ -1,5 +1,6 @@
 # Scouting
-## Gavin Huey
+### Gavin Huey
+### January 2nd, 2024
 
 To be prepared for the upcoming competition, we wanted to know how challenging our competition was. This is the first time our team has "scouted" before an event, and we decided to do this for a few reasons. 
 

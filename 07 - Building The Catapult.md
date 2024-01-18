@@ -1,6 +1,6 @@
 # Building The Catapult
 ### Ari Low
-### June 23rd
+### June 23rd, 2023
 
 To assemble the catapult, I first needed to make the catapult arm that would hold the Tri-Ball. This arm wasn't designed in CAD, and I had to bend lots of Vex metal plates to make it
 

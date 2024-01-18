@@ -1,4 +1,6 @@
 # Starting the Rebuild
+### Dylan Mashini
+### November 10th, 2023
 
 Throughout the first build, the team agreed that we shouldn't wrap ourselves up in what others were doing. Last year a common trend was us changing something to chase the "meta", and thinking that was the path to victory. If other successful teams were doing it, we assumed we needed to be too. This wasn't effective and ended up causing more stress and damage to our robot than it helped. Because of this, we agreed that we should trust our design and ideas, and commit to making our design the best that we could make it, only taking inspiration from others at the beginning of our design cycle. This worked out relatively well, and I'm happy with how our robot ended up, but in between design cycles is a great time to check to see what's working for the rest of the world, and take inspiration. 
 
@@ -28,6 +30,7 @@ The catapult was pretty good and worked throughout the competition. The slip gea
 #### The Bad
 Our catapult was massively inefficient. It used 12 bands (which is a lot of power) to just barely get Tri-Balls across the bar. Catapults aren't as good as punchers in this game, and now we know that. Also, the catapult took a long time for a cycle, making it take a long time for us to get all our match loads across. All things considered, I'm happy with it because it worked, but there is a lot of room for improvement.  
 
+\newpage
 ## Time Management + Project Planning
 Here's a Gantt chart showing how we plan to spend our next couple of months. We plan to stick to the same type of 2-month design cycle we tried to use for the first iteration because that seemed to work well. Our first competition is going to be at the beginning of January, so we want the robot to be done before the end of December. 
 

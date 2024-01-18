@@ -1,5 +1,6 @@
 # Building Endgame
-## Ari Low
+### Ari Low
+### December 20th, 2023
 
 I think that endgame is going to be the most complex and challenging part to build on our robot. So far, everything we've built has been smooth sailing, but I think that endgame has the potential to challenge us. 
 

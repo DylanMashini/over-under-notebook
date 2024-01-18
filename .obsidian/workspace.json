@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9464dbe00a58ee5d",
+        "id": "ca6db9c720be307a",
         "type": "tabs",
         "children": [
           {
-            "id": "e9aab16255353685",
+            "id": "0ab7ed48286e403b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25 - Preparing For The Competition.md",
+                "file": "01 - Meta (Starting The Notebook).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "25 - Preparing For The Competition.md",
+                "file": "01 - Meta (Starting The Notebook).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "25 - Preparing For The Competition.md",
+                "file": "01 - Meta (Starting The Notebook).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "25 - Preparing For The Competition.md"
+                "file": "01 - Meta (Starting The Notebook).md"
               }
             }
           }
@@ -146,53 +146,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9aab16255353685",
+  "active": "0ab7ed48286e403b",
   "lastOpenFiles": [
+    "02.5 - Time Management + Project Planning (Iteration 1).md",
+    "03 - Designing a X Drive.md",
+    "04 - The Over Role.md",
+    "05 - Adding A Catapult.md",
+    "06 - Building the Chassis.md",
+    "07 - Building The Catapult.md",
+    "08 - Designing an Intake.md",
+    "09 - Building the Intake.md",
+    "10 - Programming.md",
+    "11 - Preparing for Our First Comp of the Year.md",
+    "12 - Reflecting on Our First Competition.md",
     "13 - Starting the Rebuild.md",
+    "14 - Designing the Puncher.md",
+    "15 - Designing The Wings.md",
+    "16 - Building The Puncher.md",
+    "17 - Building The Wings.md",
+    "18 - Creating and Growing a New Team.md",
+    "19 - Conquering Endgame (Part 1).md",
+    "20 - Building Endgame.md",
+    "21 - Puncher Practice.md",
+    "22 - Flipping the Puncher.md",
+    "23 - Scouting.md",
+    "24 - Conquering Endgame (Part 2).md",
+    "25 - Preparing For The Competition.md",
+    "02 - Deciding on The Chassis.md",
+    "01 - Meta (Starting The Notebook).md",
+    "images/Order Success _ FedEx Office.pdf",
     "images/Gantt2.jpeg",
     "images/Gantt2.jpg",
     "images/Untitled (1).jpg",
     "images/Untitled.jpg",
-    "24 - Conquering Endgame (Part 2).md",
-    "25 - Preparing For The Competition.md",
-    "19 - Conquering Endgame (Part 1).md",
-    "23 - Scouting.md",
-    "21 - Puncher Practice.md",
-    "20 - Building Endgame.md",
-    "18 - Creating and Growing a New Team.md",
-    "17 - Building The Wings.md",
-    "16 - Building The Puncher.md",
-    "15 - Designing The Wings.md",
-    "14 - Designing the Puncher.md",
-    "01 - Meta (Starting The Notebook).md",
-    "00 - Frontmatter.md",
     "Gantt1.pdf",
-    "03 - Designing a X Drive.md",
-    "02.5 - Time Management + Project Planning (Iteration 1).md",
     "images/Gantt1.jpeg",
     "images/Gnatt1.jpeg",
     "images/Gnatt1.jpg",
     "Gantt1.jpeg",
-    "04 - The Over Role.md",
-    "02 - Deciding on The Chassis.md",
     "CoverPage.pdf",
     "images/HangingRobot.jpeg",
     "Untitled.jpg",
-    "22 - Flipping the Puncher.md",
-    "12 - Reflecting on Our First Competition.md",
-    "05 - Adding A Catapult.md",
-    "06 - Building the Chassis.md",
     "images/RampsPolyCarb.jpeg.sb-5e4d1be6-CtiSeC",
     "images/Ramp.jpeg.sb-5e4d1be6-Kc5Li7",
     "Gnatt1.pdf",
     "Gnatt1.pdf.crdownload",
     "Gnatt_1.pdf",
     "images/Gnatt1.jpg.sb-5e4d1be6-lx3iso",
-    "09 - Building the Intake.md",
-    "08 - Designing an Intake.md",
-    "07 - Building The Catapult.md",
     "images/VexDR4BBanding.png.sb-5e4d1be6-toDYlL",
-    "images/VexDR4BBanding.jpeg.sb-5e4d1be6-GeSe7Q",
     "Untitled.canvas"
   ]
 }

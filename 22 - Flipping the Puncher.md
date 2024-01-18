@@ -1,5 +1,6 @@
 # Flipping The Puncher
-## Ari Low
+### Ari Low
+### December 29th, 2023
 
 The puncher practice was mostly a success, but we realized one issue that we overlooked when converting the catapult to a puncher. The previous catapult extended across much more of the robot, taking up a much larger footprint. For that reason, it made sense to have the catapult start at the front of the robot and shoot out tri-balls forward. This is roughly where we placed the Tri-Balls when we were match-loading. 
 

@@ -1,5 +1,7 @@
 # Designing the Puncher
-## Dylan Mashini
+### Dylan Mashini
+
+### November 15th, 2023
 
 ## Return To CAD!
 I'm happy to announce that the team is onboard to continue designing everything in CAD. I really like this because I enjoy CAD, and also think it allows us to be more prepared. Right now, the CAD model for the robot doesn't have the Intake, but that's ok because we're planning to scrap and redesign it. 

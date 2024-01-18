@@ -1,5 +1,6 @@
 # Puncher Practice
-## Julia Acker
+### Julia Acker
+### December 21st, 2023
 
 As we approach the competition, we need to figure out how we are going to match load. Match loading is essential to the gameplay this year, and becoming highly optimized to do that quickly frees us up to be defensive much quicker. Last competition, we only had one person doing match loading, and this worked well because our catapult was pretty slow. This has changed since we pivoted to a puncher. The puncher is going to require us to use two people to load, alternating that way we don't miss any cycles. 
 

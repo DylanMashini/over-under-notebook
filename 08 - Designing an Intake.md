@@ -1,6 +1,6 @@
 # Designing an Intake
 ### Dylan Mashini
-### July 1st
+### July 1st, 2023
 
 This is a writeup after a Team Strategy Meeting, detailing the decisions we made, and why we made them. 
 

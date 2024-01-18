@@ -1,5 +1,6 @@
 # Conquering Endgame (Part 2)
 ### Julia Acker
+### January 14th, 2024
 
 After pivoting from our idea of a lift-based endgame, we are planning on a more realistic endgame. This endgame is supposed to be as simple as possible while getting us off the ground. 
 

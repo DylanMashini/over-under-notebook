@@ -1,5 +1,6 @@
 # Preparing For The Competition
 ### Noah Nelson
+### January 18th, 2024
 
 There are a few things that need to be done before the competition to make sure that we pass inspection, and are prepared for any maintenance that our robot needs. 
 

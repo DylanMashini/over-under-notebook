@@ -1,6 +1,6 @@
 # Programming The Robot
 ### Dylan Mashini
-### September 3rd
+### September 3rd, 2023
 
 For programming this year, I want the robot to be capable during the driver control period using Field Oriented Control, and capable during auton. With that in mind, I have to decide how I'm going to actually program it. 
 

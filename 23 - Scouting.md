@@ -7,7 +7,7 @@ First, if we could know what the strongest teams were, we could compete knowing 
 
 Second, we wanted to put our minds at ease. There are some powerhouse teams in Georgia that we don't have a chance of beating, because they have large experienced teams with full-time coaches assisting them in the design process. We've gone up against a few of them in the past and wanted to see if there was anything like that at our upcoming competition. Fortunately, we didn't see anything like this. 
 
-To scout, we decided to take advantage of RobotEvent's download spreadsheet feature. This allowed us to download an Excel sheet that already had all of the teams on it. 
+To scout, we decided to take advantage of RobotEvent's download spreadsheet feature. After downloading the spreadsheet, we went through, and looked for any social media presence, previous performance at comps, and 
 
 
 ### Conclusion

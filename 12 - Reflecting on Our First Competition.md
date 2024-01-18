@@ -1,4 +1,4 @@
-# Reflecting on Our First Competition
+# Reflecting on Our First Over Under Competition
 
 ## Prelim Rounds
 Thankfully, all rounds were filmed and streamed to YouTube, so we can review all of our rounds. 
@@ -17,19 +17,19 @@ This was certainly one of the worst Vex matches I've ever participated in. We we
 This was a great round. We won 122-46. We acted as an under this round, because our partners had a faster catapult. We defended and pushed a ton of Tri-Balls under the goal. This gave us a huge point advantage at the end of the round. This round went almost perfectly, and we were confident we could go 5-1 at this point. 
 
 ### Prelim 4 (R30)
-This round was another win. We won 94-83, but this was good because we acted as an over, and there was a defensive bot attempting to prevent us from launching Tri-Balls. We countered this defense well and got 100% of the match loads across the bar. This was a big success for our robot. Our partner wasn't able to score a lot under the low goal, but we still won with our Tri-Balls in the offensive zone, and we were able to go across and score some under after we finished match loading. One thing that we needed to improve is the speed that we can match-load, but that will be in the next iteration. 
+This round was another win. We won 94-83, but this was good because we acted as an over, and there was a defensive bot attempting to prevent us from launching Tri-Balls. We countered this defense well and got 100% of the match loads across the bar. This was a big success for our robot. Our partner wasn't able to score a lot under the low goal, but we still won with our Tri-Balls in the offensive zone, and we were able to go across and score some under after we finished match loading. One thing that we need to improve is the speed that we can match-load, but that will be in the next iteration. 
 
 ### Prelim 5 (R35)
-We also won this round. We won 70-27. To give our opponents some credit, they did well considering one of the teams didn't show up. We acted as an over, and were able to match load all of the Tri-Balls. This was a pretty easy win, considering it was 2v1. 
+We also won this round. We won 70-27. To give our opponents some credit, they did well considering one of the teams didn't show up. We acted as an over and were able to match load all of the Tri-Balls. This was a pretty easy win, considering it was 2v1. 
 
 ### Prelim 6 (R43)
-This was a really bad round. At the beginning, we had the preload in our intake, and our catapult was up. We were planning on going to put it into the low goal first thing, but when we went to do that, I pressed the wrong button and ran the intake in the intake direction. This was really bad because it stuck the Tri-Ball under our catapult. Even worse, this counted as possession, so we were effectively disabled for the round, we slammed the bot against the wall trying to get it out, but it was stuck there. This caused us to lose the round 15-95. 
+This was a really bad round. At the beginning, we had the preload in our intake, and our catapult was up. We were planning on going to put it into the low goal first thing, but when we went to do that, I pressed the wrong button and ran the intake in the inward direction. This was really bad because it stuck the Tri-Ball under our catapult. Even worse, this counted as possession, so we were effectively disabled for the round, we slammed the bot against the wall trying to get it out, but it was stuck there. This caused us to lose the round 15-95. 
 
 ## Alliance Selection
 After prelims, we stood in 12th place for alliance selection. This is ok, and we are guaranteed to be able to pick, but we were hoping to be in the top 5, so we weren't very happy about this. We found a team that would partner with us that had a very capable bot, but someone ahead of us picked them, so we were stuck with a bot that we had never worked with. 
 
-## Prelim 1
-We lost Prelim 1, and didn't progress any further. This was a bummer, but we were still hopeful to win a design or judge award. We created a good robot, and our poor performance was because of a lack of driving skills and testing. This is an important lesson, and our team needs to keep in mind the amount of time it takes to learn how to properly operate a bot. 
+## Round of 16
+We lost the round of 16, and didn't progress any further. This was a bummer, but we were still hopeful to win a design or judge award. We created a good robot, and our poor performance was because of a lack of driving skills and testing. This is an important lesson, and our team needs to keep in mind the amount of time it takes to learn how to properly operate a bot. 
 
 ## Awards
 Thankfully, we won the design award. We're happy, and although it doesn't qualify us for states, it qualifies us for the US Open. It also confirms our efforts have paid off, and that we are doing our notebooking right. 

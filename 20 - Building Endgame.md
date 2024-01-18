@@ -73,11 +73,13 @@ Unfortunately, even with it all assembled, we had one big problem. The lift was 
 - Moving Motors to the front
 	- Another solution we came up with was moving the motors to a different part of the lift. The purpose of this was to prevent the lift from having to pick up the weight of the motors. We moved the motors to the axles at the front of the lift, where the lift wouldn't have to support the weight of the motors. We also replaced some steel parts with aluminum to decrease the weight, and although this let the lift make it partially up, it still didn't work. 
 - Increasing banding
-	- One of the other things we tried was increasing the banding that pulled the bars together. We took this to the extreme and put 20+ bands on each side, and it still wouldn't work. Here's a picture of the amount of bands we used during a test run that we recorded. 
+	- One of the other things we tried was increasing the banding that pulled the bars together. We took this to the extreme and put 25 bands on each side, and it still wouldn't work. Here's a picture of the amount of bands we used during a test run that we recorded. 
 
 ![](images/BandingOnDR4B.png)
 
 At this point, we had spent well over 30 hours just trying to get it to work, and there were a lot of potential solutions we prototyped that I didn't include here. We had been really hesitant to scrap it, because of how much time we had invested, but this wasn't sound reasoning. This is a perfect example of the sunk-cost fallacy, where we were avoiding cutting our losses because of how much we put into the lift. 
+
+In addition to the lift just not being strong enough, we knew that it would be a huge challenge to get it to properly reach the right spot on the vertical bar, and to lift the weight of the robot without slipping. So even if we perfected the lift itself, there are still lots of roadblocks that could prevent this design from coming to fruition. 
 
 I wish there was a clear conclusion here about why it didn't work, or a way we could fix it, but at this point, it feels like we have tried everything for this lift. My theory on why it didn't work is that when we scaled up the four-bar lift that we saw online, we surpassed some point where this type of lift ceased to be viable. Looking back on it, a smaller more targeted lift would be ideal. It makes sense why we haven't seen any lift systems at other comps, because they are really difficult to build. 
 

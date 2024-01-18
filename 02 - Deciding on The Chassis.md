@@ -23,7 +23,8 @@ The type of chassis for this year was a major decision for our team. We've wante
 - Likely direct drive meaning we have less control over the gear ratio and won't be able to distribute load across motors
 - Due to the likely non-symmetrical nature of our ideas for endgame, driving straight may be an issue because of [center of gravity issues](https://www.vexforum.com/t/what-are-the-pros-and-cons-of-x-drive-for-in-the-zone/41353/5)
 - Complexity of Code
-- Harder to get over the bar
+- Harder to get over the center bar
+- Forced to go under the horizontal bar, which gives us a 12-inch max-height
 
 
 ![Source: @Codec on vexforum.com](images/simpleXDrive.jpeg)
@@ -37,13 +38,14 @@ The type of chassis for this year was a major decision for our team. We've wante
 - Increased Traction will allow us to be defensive
 - Design Flexibility allows us to mount sub-assemblies easier
 - Simplicity of Code
-- Already have experience deciding 
-- Easier to get over the bar
+- Already have experience designing 
+- Easier to get over the center bar
 
 ##### Cons:
 - Limited Maneuverability makes efficient operation on the field more difficult
-- Larger Footprint
 - Limited Aesthetic Appeal (Doesn't look Cool)
+- Too Basic
+- Not an X Drive
 
 ### Making Sense of Our Options
 
@@ -52,7 +54,7 @@ At the end of the meeting today, we ultimately decided on an X drive. Let's brea
 Everything boils down to a few tradeoffs:
 
 - Nimble vs Strong
-- Simple and Less Capable vs Complex and More Capable
+- Simple vs Complex
 - Aesthetic Appeal
 
 #### Nimble vs Strong:
@@ -64,7 +66,8 @@ Last year, we had the same discussion, but we ultimately decided to use a Tank D
 
 It is also more beneficial to be Nimble this year compared to last year because a smaller operating space creates additional benefits from being maneuverable. 
 
-#### Simple and Less Capable vs. Complex and More Capable:
+#### Simple vs. Complex:
+
 Last year was our first year creating Competition Robots, so we had very little build experience. This year we feel confident that we can engineer a more complex drivetrain so we are willing to take on the challenge of an X Drive. The only concern about complexity that we had was reliability. We know that during a competition everything that can go wrong with our robot likely will, so we tried to identify possible troubles that we could have with our robot during a match. 
 
 - Field Centric Control Failure

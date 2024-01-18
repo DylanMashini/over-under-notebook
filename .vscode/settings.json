@@ -109,6 +109,31 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "23 - Scouting.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "02.5 - Time Management + Project Planning (Iteration 1).md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "16 - Building The Puncher.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "18 - Creating and Growing a New Team.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "24 - Conquering Endgame (Part 2).md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "25 - Preparing For The Competition.md"
         }
     ]
 }

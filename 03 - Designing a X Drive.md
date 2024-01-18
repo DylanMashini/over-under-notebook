@@ -21,7 +21,7 @@ After looking through all the X drive designs we could find on the internet, thi
 
 #### Math
 
-We need to make sure that the holes on the inner and outer tracks are aligned so we can fit an axle through it at the ends. This actually is more difficult than it sounds, because it won't just naturally line up. Both the size of standoffs between the tracks and the length of the different parts impact if the holes will line up. 
+We need to make sure that the holes on the inner and outer tracks are aligned so we can fit an axle through them at the ends. This actually is more difficult than it sounds, because it won't just naturally line up. Both the size of standoffs between the tracks and the length of the different parts impact if the holes will line up. 
 
 To ensure that the inner and outer tracks of the chassis design align at the angled ends, we can set up a relationship based on the known parameters.  
 
@@ -87,7 +87,7 @@ And then connected them into a side assembly.
 ![](images/XDriveSideAssemblyIsometric.jpeg)
 
 ### Assembly
-After creating the side assemblies, I brought them into a final assembly and mirrored them. Then I added Motors, Wheels and Structural Supports. Because being lightweight is very important this year, the only steel parts are the central braces. The rest is made up of aluminum. The reason that we used steel for the central parts is to reduce flex between the two sides which will prevent drive issues in the future.  
+After creating the side assemblies, I brought them into a final assembly and mirrored them. Then I added Motors, Wheels, and Structural Supports. Because being lightweight is very important this year, the only steel parts are the central braces. The rest is made up of aluminum. The reason that we used steel for the central parts is to reduce flex between the two sides which will prevent drive issues in the future.  
 
 ![Assembled Drivetrain](images/XDriveAssembly.jpeg){ width=100% }
 

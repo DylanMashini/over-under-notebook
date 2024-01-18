@@ -158,7 +158,7 @@ if (catapultState == WINDING) {
       }
 ```
 
-This is the most complex stage of the catapult, and notice the amount of seemingly arbitrary constants. These came out of hours of testing to figure out how we can get a consistent launch cycle. A way to make this work better is to use a housemade PID. The ``move_absolute`` method uses the built-in PID built into the vex firmware. This has some issues, especially in our scenario, where the amount of work done by the motor differs massively depending where the slip gear is. I also think it would be a good exercise to build our own PID. Unfortunately, we don't have time to fully build out a custom PID, and test it. 
+This is the most complex stage of the catapult, and notice the amount of seemingly arbitrary constants. These came out of hours of testing to figure out how we can get a consistent launch cycle. A way to make this work better is to use a housemade PID. The ``move_absolute`` method uses the built-in PID built into the vex firmware. This has some issues, especially in our scenario, where the amount of work done by the motor differs massively depending on where the slip gear is. I also think it would be a good exercise to build our own PID. Unfortunately, we don't have time to fully build out a custom PID, and test it. 
 
 #### Locked
 The locked state of the catapult is where the match load enters the catapult. 

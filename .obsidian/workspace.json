@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7f4c36618b083302",
+        "id": "9464dbe00a58ee5d",
         "type": "tabs",
         "children": [
           {
-            "id": "1b0414bfc69bac8f",
+            "id": "e9aab16255353685",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - The Over Role.md",
+                "file": "25 - Preparing For The Competition.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "INSERT",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5024719238281
+    "width": 351.5026054382324
   },
   "right": {
     "id": "53065eef37112493",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 - The Over Role.md",
+                "file": "25 - Preparing For The Competition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 - The Over Role.md",
+                "file": "25 - Preparing For The Competition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 - The Over Role.md"
+                "file": "25 - Preparing For The Competition.md"
               }
             }
           }
@@ -146,54 +146,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b0414bfc69bac8f",
+  "active": "e9aab16255353685",
   "lastOpenFiles": [
-    "images/ModifiedCollar.jpeg",
-    "08 - Designing an Intake.md",
-    "12 - Reflecting on Our First Competition.md",
-    "02 - Deciding on The Chassis.md",
-    "11 - Preparing for Our First Comp of the Year.md",
-    "20 - Building Endgame.md",
-    "21 - Puncher Practice.md",
-    "images/BandingOnDR4B.jpg",
-    "images/BandingOnDR4B.png",
-    "images/UpperBars2.png",
-    "images/Screenshot_2024-01-17_at_12.36.49_PM-removebg-preview.png",
-    "images/UpperBars.png",
-    "images/VexDR4BBanding.png",
-    "images/VexDR4BBanding.png.sb-5e4d1be6-toDYlL",
-    "23 - Scouting.md",
+    "13 - Starting the Rebuild.md",
+    "images/Gantt2.jpeg",
+    "images/Gantt2.jpg",
+    "images/Untitled (1).jpg",
+    "images/Untitled.jpg",
+    "24 - Conquering Endgame (Part 2).md",
     "25 - Preparing For The Competition.md",
     "19 - Conquering Endgame (Part 1).md",
-    "images/VexDR4B copy.png",
-    "24 - Hanging Mech.md",
-    "images/VexDR4B.png",
-    "images/VexDR4BBanding.jpeg.sb-5e4d1be6-GeSe7Q",
-    "images/VexDR4BBanding.jpeg",
-    "images/DR4BMotor.jpeg",
-    "22 - Flipping the Puncher.md",
-    "07 - Building The Catapult.md",
+    "23 - Scouting.md",
+    "21 - Puncher Practice.md",
+    "20 - Building Endgame.md",
+    "18 - Creating and Growing a New Team.md",
+    "17 - Building The Wings.md",
+    "16 - Building The Puncher.md",
+    "15 - Designing The Wings.md",
+    "14 - Designing the Puncher.md",
     "01 - Meta (Starting The Notebook).md",
     "00 - Frontmatter.md",
-    "14 - Designing the Puncher.md",
-    "15 - Designing The Wings.md",
-    "13 - Starting the Rebuild.md",
+    "Gantt1.pdf",
+    "03 - Designing a X Drive.md",
+    "02.5 - Time Management + Project Planning (Iteration 1).md",
+    "images/Gantt1.jpeg",
+    "images/Gnatt1.jpeg",
+    "images/Gnatt1.jpg",
+    "Gantt1.jpeg",
+    "04 - The Over Role.md",
+    "02 - Deciding on The Chassis.md",
     "CoverPage.pdf",
-    "Copy of VRC Digital Notebook - Template v2.1.pdf",
-    "images/BadNewMatchLoading.png.sb-5e4d1be6-hsfh07",
-    "16 - Building The Puncher.md",
-    "17 - Building The Wings.md",
-    "20 - Puncher Practice.md",
-    "output.pdf.sb-f89c5259-HepC3D",
-    "21 - Flipping the Puncher.md",
+    "images/HangingRobot.jpeg",
+    "Untitled.jpg",
+    "22 - Flipping the Puncher.md",
+    "12 - Reflecting on Our First Competition.md",
+    "05 - Adding A Catapult.md",
     "06 - Building the Chassis.md",
-    "10 - Programming.md",
+    "images/RampsPolyCarb.jpeg.sb-5e4d1be6-CtiSeC",
+    "images/Ramp.jpeg.sb-5e4d1be6-Kc5Li7",
+    "Gnatt1.pdf",
+    "Gnatt1.pdf.crdownload",
+    "Gnatt_1.pdf",
+    "images/Gnatt1.jpg.sb-5e4d1be6-lx3iso",
     "09 - Building the Intake.md",
-    "08 - Designing a Intake.md",
-    "output.pdf",
-    "modified.markdown",
-    "out.pdf",
-    "out.log",
+    "08 - Designing an Intake.md",
+    "07 - Building The Catapult.md",
+    "images/VexDR4BBanding.png.sb-5e4d1be6-toDYlL",
+    "images/VexDR4BBanding.jpeg.sb-5e4d1be6-GeSe7Q",
     "Untitled.canvas"
   ]
 }

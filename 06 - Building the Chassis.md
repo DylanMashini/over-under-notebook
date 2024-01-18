@@ -19,7 +19,7 @@ One thing that the team hasn't thought about is what gear cartridges we are goin
 
 We know that X drives go at $\sqrt{2}$ times the speed of a Comparable Tank Drive because of a vexforum post, but it isn't explained well anywhere. Many people explain it as a vector addition operation, which seems intuitive enough, but you shouldn't need that level of mathematical abstraction to explain something so simple. Let's look at some example cases to figure this out. 
 
-First, consider a Tank Drive that is moving directly forward compared to a X Drive moving Diagonally. 
+First, consider a Tank Drive that is moving directly forward compared to an X Drive moving Diagonally. 
 
 ![](images/XDriveExampleOne.jpeg){ width=100% }
 

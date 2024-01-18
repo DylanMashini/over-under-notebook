@@ -19,7 +19,7 @@ To figure out the number of gears to cut off, we need some math. For now, we are
 One gear is the input (attached to the motor) and one is the output (attached to the catapult arm). 
 
 - Let the number of teeth on the Input Gear be $I$ (60)
-- Let the number of teeth on the Output Gear be $O$ (12)
+- Let the number of teeth on the Output Gear be $O$ (36)
 - Let the number of teeth of travel on the Catapult Arm ($O$) be $T$
 - Let the gear ratio be $u$
 

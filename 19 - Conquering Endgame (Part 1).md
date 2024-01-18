@@ -1,4 +1,4 @@
-# Conquering Endgame
+# Conquering Endgame (Part 1)
 
 For our first iteration of the endgame, we had a few options to choose from. First was a hanging mech. We have seen this work with other teams in person, so we know that it is doable. The second option is a lift system. We haven't seen this work in person, but there are a few videos online of this working well for teams. The lift system would be harder to build, but score us a higher elevation height, and more points. 
 

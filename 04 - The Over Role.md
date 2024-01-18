@@ -25,7 +25,7 @@ Right now, based on discussions on the VexForum, and some prototyping done by ou
 	**Our 3D printed Tri-Ball we used to prototype**
 
 ### Speed Launching the Tri-Ball
-Launching tri-balls at a high rate is going to be essential this year, especially as we get later into the season. Teams that were able to launch 2-3 disks at once last year performed really well. This is significantly easier with a flywheel, because you can just push multiple into the flywheel rapidly, assuming the motor has time to recover the RPM. This is more difficult with the wind-up of a Catapult. 
+Launching tri-balls at a high rate is going to be essential this year, especially as we get later into the season. Teams that were able to launch 2-3 disks at once last year performed really well. This is significantly easier with a flywheel because you can just push multiple into the flywheel rapidly, assuming the motor has time to recover the RPM. This is more difficult with the wind-up of a Catapult. 
 
 ### Easy to Build
 Both are viable for us to build in the time that we have, with the materials that we have, but catapults win in this category. This is because the amount of time I predict it would take to make a flywheel consistent would be much more time than it would take to make a catapult consistent. Considering that we haven't ever made a catapult, there is a significant learning curve, but I'm confident it will be easier to figure out than it would be to build a consistent flywheel. 
@@ -44,4 +44,4 @@ The launcher needs to have a small footprint so we have space for other mechanis
 | Footprint on the robot       | 1          | 7              | 9              |
 | **Total**                    |            | **77**         | **65**         |
 
-With this in mind, the winner is a catapult. I think it will be interesting, learning to build a catapult for the first time. The Tri-Balls are huge, so it's going to be difficult to find a way to fit them onto a catapult arm. 
+With this in mind, the winner is a catapult. I think it will be interesting, to learn to build a catapult for the first time. The Tri-Balls are huge, so it's going to be difficult to find a way to fit them onto a catapult arm. 
